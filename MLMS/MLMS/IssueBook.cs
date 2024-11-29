@@ -19,6 +19,7 @@ namespace MLMS2
             InitializeComponent();
         }
 
+        
         private void backButton_Click(object sender, EventArgs e)
         {
             MainDashbboard c = new MainDashbboard();
@@ -26,8 +27,10 @@ namespace MLMS2
             this.Hide();
         }
 
+        
         private void okButton_Click(object sender, EventArgs e)
         {
+            /*
             // Retrieve the connection string from app.config
             string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
@@ -109,8 +112,10 @@ namespace MLMS2
             {
                 MessageBox.Show($"An unexpected error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            */
         }
 
+        /*
         // Helper method to clear the form fields
         private void ClearForm()
         {
@@ -121,5 +126,6 @@ namespace MLMS2
             issueDateTimePicker.Value = DateTime.Now; // Reset DateTimePicker to today
             DueDateDateTimePicker.Value = DateTime.Now.AddDays(7); // Set default due date to one week later
         }
+        */
     }
 }

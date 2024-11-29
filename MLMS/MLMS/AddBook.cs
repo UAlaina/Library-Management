@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,6 +29,9 @@ namespace MLMS
 
         private void addButton_Click(object sender, EventArgs e)
         {
+            //testing:
+            MessageBox.Show(Directory.GetCurrentDirectory());
+            
             // Retrieve values from the form inputs
             string title = bookTextBox.Text;
             string isbn = ISBNtextBox.Text;
@@ -47,7 +51,17 @@ namespace MLMS
             bool isAvailable = availability == "Available";
 
             // Define the connection string (update with your connection string)
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\Documents\GitHub\MLMS\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            //Alaina path
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\Documents\GitHub\MLMS\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+
+            //roy path
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+
+            // relative path
+            //string relativePath = Path.Combine("..", "..", "..", "App_Data", "Library.mdf");
+            //string dbPath = Path.GetFullPath(relativePath);
+            //string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True;Connect Timeout=30;";
+
 
             // SQL query to insert the book into the database
             string query = @"INSERT INTO Book (Title, ISBN, Author, YearPublished, Description, Availability) 
