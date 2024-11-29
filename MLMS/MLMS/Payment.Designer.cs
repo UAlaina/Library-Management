@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Payment));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.expireTextBox = new System.Windows.Forms.TextBox();
             this.cardNameLabel = new System.Windows.Forms.Label();
             this.cardNameTextBox = new System.Windows.Forms.TextBox();
             this.backButton = new System.Windows.Forms.Button();
@@ -46,12 +47,13 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.creditCardRadioButton = new System.Windows.Forms.RadioButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.expireTextBox = new System.Windows.Forms.TextBox();
+            this.expiryDatePicker = new System.Windows.Forms.DateTimePicker();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.expiryDatePicker);
             this.groupBox1.Controls.Add(this.expireTextBox);
             this.groupBox1.Controls.Add(this.cardNameLabel);
             this.groupBox1.Controls.Add(this.cardNameTextBox);
@@ -77,6 +79,15 @@
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Payment Details";
+            // 
+            // expireTextBox
+            // 
+            this.expireTextBox.Location = new System.Drawing.Point(25, 381);
+            this.expireTextBox.Margin = new System.Windows.Forms.Padding(4);
+            this.expireTextBox.Name = "expireTextBox";
+            this.expireTextBox.Size = new System.Drawing.Size(265, 22);
+            this.expireTextBox.TabIndex = 19;
+            this.expireTextBox.Visible = false;
             // 
             // cardNameLabel
             // 
@@ -238,13 +249,12 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "Payment Method";
             // 
-            // expireTextBox
+            // expiryDatePicker
             // 
-            this.expireTextBox.Location = new System.Drawing.Point(192, 234);
-            this.expireTextBox.Margin = new System.Windows.Forms.Padding(4);
-            this.expireTextBox.Name = "expireTextBox";
-            this.expireTextBox.Size = new System.Drawing.Size(265, 22);
-            this.expireTextBox.TabIndex = 19;
+            this.expiryDatePicker.Location = new System.Drawing.Point(192, 229);
+            this.expiryDatePicker.Name = "expiryDatePicker";
+            this.expiryDatePicker.Size = new System.Drawing.Size(265, 22);
+            this.expiryDatePicker.TabIndex = 20;
             // 
             // Payment
             // 
@@ -281,5 +291,6 @@
         private System.Windows.Forms.Label cardNameLabel;
         private System.Windows.Forms.TextBox cardNameTextBox;
         private System.Windows.Forms.TextBox expireTextBox;
+        private System.Windows.Forms.DateTimePicker expiryDatePicker;
     }
 }

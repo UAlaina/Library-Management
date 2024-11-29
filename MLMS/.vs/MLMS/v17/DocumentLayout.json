@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\issuebook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\issuebook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\addbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addbook.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\issuebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\issuebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -46,100 +26,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Payment.cs [Design]",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
-              "RelativeDocumentMoniker": "MLMS\\Payment.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs [Design]",
-              "RelativeToolTip": "MLMS\\Payment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T23:27:31.078Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AddBook.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
-              "RelativeDocumentMoniker": "MLMS\\AddBook.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
-              "RelativeToolTip": "MLMS\\AddBook.cs",
-              "ViewState": "AQIAAM4AAAAAAAAAAAAswLoAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:43:15.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddBook.cs [Design]",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
-              "RelativeDocumentMoniker": "MLMS\\AddBook.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs [Design]",
-              "RelativeToolTip": "MLMS\\AddBook.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:42:55.92Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IssueBook.Designer.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\IssueBook.Designer.cs",
-              "RelativeDocumentMoniker": "MLMS\\IssueBook.Designer.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\IssueBook.Designer.cs",
-              "RelativeToolTip": "MLMS\\IssueBook.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:41:26.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IssueBook.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\IssueBook.cs",
-              "RelativeDocumentMoniker": "MLMS\\IssueBook.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\IssueBook.cs",
-              "RelativeToolTip": "MLMS\\IssueBook.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAQwCoAAAAhAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:37:32.505Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Payment.cs",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
               "RelativeDocumentMoniker": "MLMS\\Payment.cs",
               "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
               "RelativeToolTip": "MLMS\\Payment.cs",
-              "ViewState": "AQIAAFIAAAAAAAAAAIA8wBEAAAAPAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-29T18:16:10.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AddBook.Designer.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.Designer.cs",
-              "RelativeDocumentMoniker": "MLMS\\AddBook.Designer.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.Designer.cs",
-              "RelativeToolTip": "MLMS\\AddBook.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "AddBook.cs",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
+              "RelativeDocumentMoniker": "MLMS\\AddBook.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
+              "RelativeToolTip": "MLMS\\AddBook.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwDkAAADgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-29T21:43:02.841Z",
+              "WhenOpened": "2024-11-29T21:43:15.385Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "App.config",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\App.config",
               "RelativeDocumentMoniker": "MLMS\\App.config",
@@ -152,7 +69,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "AddMember.cs [Design]",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddMember.cs",
               "RelativeDocumentMoniker": "MLMS\\AddMember.cs",

@@ -13,6 +13,13 @@ using System.Windows.Forms;
 
 namespace MLMS2
 {
+
+    //NOTE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1
+    //PAyment WORKS
+    //however, the foreign key is linked to member email
+    //if there are no memebers this wont work yet
+
+
     public partial class Payment : Form
     {
         public Payment()
@@ -35,10 +42,12 @@ namespace MLMS2
                 string email = emailTextBox.Text;
                 string name = cardNameTextBox.Text;
                 string cardNumber = cardNoTextBox.Text;
-                string expiryDateStr = expireTextBox.Text;
+                //string expiryDateStr = expireTextBox.Text;
+                DateTime expiryDate = expiryDatePicker.Value;
                 string cvv = securityCodeTextBox.Text;
                 decimal amount = decimal.Parse(amountTextBox.Text);
 
+                /*
                 // Validate inputs
                 if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(name) ||
                     string.IsNullOrEmpty(cardNumber) || string.IsNullOrEmpty(expiryDateStr) ||
@@ -46,6 +55,7 @@ namespace MLMS2
                 {
                     throw new Exception("All fields must be filled in correctly.");
                 }
+                */
 
                 // Validate card number (simple check for 16 digits)
                 if (cardNumber.Length != 16)
@@ -53,12 +63,14 @@ namespace MLMS2
                     throw new Exception("Card number must be 16 digits.");
                 }
 
+                /*
                 // Validate Expiry Date
                 DateTime expiryDate = DateTime.ParseExact(expiryDateStr, "MM/yy", CultureInfo.InvariantCulture);
                 if (expiryDate <= DateTime.Now)
                 {
                     throw new Exception("Card has expired.");
                 }
+                */
 
                 // Validate CVV (3 digits for most cards)
                 if (cvv.Length != 3)
@@ -82,7 +94,8 @@ namespace MLMS2
 
         private void SavePaymentToDatabase(string email, string name, string cardNumber, DateTime expiryDate, string cvv, decimal amount)
         {
-            string connectionString = "your_connection_string_here"; // Replace with your actual connection string
+            //roy path
+            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 string query = "INSERT INTO Payment (Email, Name, PaymentMethod, CardNumber, ExpireDate, SecurityCode, Amount) " +
