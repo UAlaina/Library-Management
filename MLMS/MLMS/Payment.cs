@@ -25,7 +25,10 @@ namespace MLMS2
         //roy path
         //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
         //alaina path
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        
+        //we can just use this and change the path in the app.config so itll be easy to change.
+        string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
         public Payment()
         {
@@ -101,6 +104,8 @@ namespace MLMS2
         {
             //roy path
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 string query = "INSERT INTO Payment (Email, Name, PaymentMethod, CardNumber, ExpireDate, SecurityCode, Amount) " +

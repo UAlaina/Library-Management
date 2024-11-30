@@ -10,6 +10,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Configuration;
 
 namespace MLMS
 {
@@ -18,8 +19,10 @@ namespace MLMS
         //roy path
         //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
         //alaina path
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
-
+        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        
+        //we can just use this and change the path in the app.config so itll be easy to change.
+        string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
         public AddBook()
         {
@@ -62,12 +65,13 @@ namespace MLMS
 
             //roy path
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             // relative path
             //string relativePath = Path.Combine("..", "..", "..", "App_Data", "Library.mdf");
             //string dbPath = Path.GetFullPath(relativePath);
             //string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True;Connect Timeout=30;";
-            
+
             //string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             // SQL query to insert the book into the database

@@ -45,12 +45,5 @@ namespace MLMS2
             P.Show();
             this.Hide();
         }
-
-        private void issueButton_Click(object sender, EventArgs e)
-        {
-            IssueBook r = new IssueBook();
-            r.Show();
-            this.Hide();
-        }
     }
 }

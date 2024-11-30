@@ -199,12 +199,6 @@
     <Compile Include="AddMember.Designer.cs">
       <DependentUpon>AddMember.cs</DependentUpon>
     </Compile>
-    <Compile Include="IssueBook.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="IssueBook.Designer.cs">
-      <DependentUpon>IssueBook.cs</DependentUpon>
-    </Compile>
     <Compile Include="MainDashbboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -232,6 +226,7 @@
     <Compile Include="UserLogin.Designer.cs">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserSession.cs" />
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -243,9 +238,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddMember.resx">
       <DependentUpon>AddMember.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="IssueBook.resx">
-      <DependentUpon>IssueBook.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashbboard.resx">
       <DependentUpon>MainDashbboard.cs</DependentUpon>

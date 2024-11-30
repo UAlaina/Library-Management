@@ -36,6 +36,9 @@ namespace MLMS
             if (ValidateUserLogin(username, password))
             {
                 MessageBox.Show("Login Success!");
+
+                StoreLoggedInUser(username);
+
                 MainDashbboard dashboard = new MainDashbboard();
                 dashboard.Show();
                 this.Hide();
@@ -56,16 +59,34 @@ namespace MLMS
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
                 conn.Open();
-                string query = "SELECT Password FROM Member WHERE Email = @Email";
+                string query = "SELECT Password,MemberID FROM Member WHERE Email = @Email";
 
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Email", username);
-                    string storedPassword = (string)cmd.ExecuteScalar();
+                    //string storedPassword = (string)cmd.ExecuteScalar();
 
-                    if (storedPassword == password)
+                    // Use SqlDataReader to get both Password and MemberID
+                    using (SqlDataReader reader = cmd.ExecuteReader())
                     {
-                        isValid = true;
+                        if (reader.Read()) // Check if data is found
+                        {
+                            string storedPassword = reader.GetString(0); // First column (Password)
+                            int memberId = reader.GetInt32(1); // Second column (MemberID)
+
+                            // Check if the password matches
+                            if (storedPassword == password)
+                            {
+                                // Store MemberID and Email in UserSession
+                                UserSession.MemberID = memberId;
+                                UserSession.Email = username;
+                                isValid = true;
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("User not found.");
+                        }
                     }
                 }
             }
@@ -73,6 +94,44 @@ namespace MLMS
             return isValid;
         }
 
+        private void StoreLoggedInUser(string username)
+        {
+            // Get the connection string from the App.config file
+            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                try
+                {
+                    conn.Open();
+                    string query = "SELECT MemberID, Email FROM Member WHERE Email = @Email";
+
+                    using (SqlCommand cmd = new SqlCommand(query, conn))
+                    {
+                        cmd.Parameters.AddWithValue("@Email", username);
+
+                        // Execute the query and get the data
+                        using (SqlDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                // Store MemberID and Email in the UserSession class
+                                UserSession.MemberID = reader.GetInt32(reader.GetOrdinal("MemberID"));
+                                UserSession.Email = reader.GetString(reader.GetOrdinal("Email"));
+                            }
+                            else
+                            {
+                                MessageBox.Show("User not found.");
+                            }
+                        }
+                    }
+                }
+                catch (Exception ex)
+                {
+                    MessageBox.Show($"Error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
 
 
         private void clearButton_Click(object sender, EventArgs e)

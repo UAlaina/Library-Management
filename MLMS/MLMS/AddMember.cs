@@ -17,7 +17,10 @@ namespace MLMS
         //roy path
         //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
         //alaina path
-        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+
+        //we can just use this and change the path in the app.config so itll be easy to change.
+        string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
 
         public addMemberForm()
@@ -63,6 +66,7 @@ namespace MLMS
 
             //roy path
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             // SQL query to insert the member into the database
             string memberQuery = "INSERT INTO Member (FullName, Address, DOB, PhoneNumber, Email, Password) VALUES (@FullName, @Address, @DOB, @PhoneNumber, @Email, @Password)";
@@ -114,6 +118,7 @@ namespace MLMS
 
             //roy path
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
