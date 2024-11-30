@@ -199,6 +199,7 @@
     <Compile Include="AddMember.Designer.cs">
       <DependentUpon>AddMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeLanguage.cs" />
     <Compile Include="MainDashbboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -233,14 +234,29 @@
     <Compile Include="WelcomeScreen.Designer.cs">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddBook.aa.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBook.fr.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddBook.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddMember.fr.resx">
+      <DependentUpon>AddMember.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="AddMember.resx">
       <DependentUpon>AddMember.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MainDashbboard.fr.resx">
+      <DependentUpon>MainDashbboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainDashbboard.resx">
       <DependentUpon>MainDashbboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.fr.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Payment.resx">
       <DependentUpon>Payment.cs</DependentUpon>
@@ -254,11 +270,20 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="ReserveBook.fr.resx">
+      <DependentUpon>ReserveBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ReserveBook.resx">
       <DependentUpon>ReserveBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserLogin.fr.resx">
+      <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WelcomeScreen.fr.resx">
+      <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>

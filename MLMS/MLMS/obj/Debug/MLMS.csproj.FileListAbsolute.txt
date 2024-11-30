@@ -337,7 +337,6 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.cspr
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.exe.config
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.addMemberForm.resources
-C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.IssueBook.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.MainDashbboard.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.Properties.Resources.resources
@@ -349,3 +348,13 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.cspr
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.csproj.Up2Date
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.exe
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.pdb
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\bin\Debug\fr\MLMS.resources.dll
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.WelcomeScreen.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\fr\MLMS.resources.dll
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\bin\Debug\aa\MLMS.resources.dll
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.aa.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\aa\MLMS.resources.dll
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.addMemberForm.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.MainDashbboard.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.fr.resources

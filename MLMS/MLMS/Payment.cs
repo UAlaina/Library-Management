@@ -132,7 +132,7 @@ namespace MLMS2
             emailTextBox.Clear();
             cardNameTextBox.Clear();
             cardNoTextBox.Clear();
-            expireTextBox.Clear();
+            expiryDatePicker.Value = DateTime.Now;
             securityCodeTextBox.Clear();
             amountTextBox.Clear();
             creditCardRadioButton.Checked = true;

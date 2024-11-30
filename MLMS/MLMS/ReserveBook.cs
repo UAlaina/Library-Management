@@ -35,55 +35,55 @@ namespace MLMS2
             {
                 string searchBy = searchByComboBox.SelectedItem?.ToString();
                 string searchQuery = searchTextBox.Text.Trim();
-                string statusFilter = statusComboBox.SelectedItem?.ToString();
                 List<string> conditions = new List<string>();
 
-                // Ensure the search query is not empty or whitespace
+                // Build search conditions based on user input
                 if (!string.IsNullOrWhiteSpace(searchQuery))
                 {
                     switch (searchBy)
                     {
                         case "By Book Name":
-                            conditions.Add("B.Title LIKE '%' + @SearchQuery + '%'"); // Fixed column name
+                            conditions.Add("Title LIKE '%' + @SearchQuery + '%'");
                             break;
                         case "By Author":
-                            conditions.Add("B.Author LIKE '%' + @SearchQuery + '%'");
+                            conditions.Add("Author LIKE '%' + @SearchQuery + '%'");
                             break;
                         case "By ISBN":
-                            conditions.Add("B.ISBN = @SearchQuery");
+                            conditions.Add("ISBN = @SearchQuery");
                             break;
                         case "By Published Date":
-                            conditions.Add("B.PublishedDate = @SearchQuery");
+                            conditions.Add("PublishedDate = @SearchQuery");
                             break;
                     }
                 }
 
-                // Add filter for status
-                if (statusFilter != "All" && !string.IsNullOrWhiteSpace(statusFilter))
-                {
-                    conditions.Add("R.Status = @Status");
-                }
-
-                // Build SQL query based on conditions
+                // Construct the query to fetch book data
                 string query = $@"
-            SELECT R.ReserveID, B.Title, B.Author, B.ISBN, R.ReserveDate, R.Status
-            FROM ReserveBooks R
-            INNER JOIN Book B ON R.BookID = B.BookID
+            SELECT 
+                BookID, 
+                Title, 
+                ISBN,
+                Author,
+                YearPublished, 
+                Edition,
+                Description,
+                Availability
+            FROM Book
             WHERE {(conditions.Count > 0 ? string.Join(" AND ", conditions) : "1=1")}";
 
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    // Add parameters based on search criteria
-                    if (!string.IsNullOrWhiteSpace(searchQuery)) cmd.Parameters.AddWithValue("@SearchQuery", searchQuery);
-                    if (statusFilter != "All" && !string.IsNullOrWhiteSpace(statusFilter)) cmd.Parameters.AddWithValue("@Status", statusFilter);
+                    // Add search query parameter
+                    if (!string.IsNullOrWhiteSpace(searchQuery))
+                        cmd.Parameters.AddWithValue("@SearchQuery", searchQuery);
 
                     conn.Open();
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
 
-                    // Bind the result to the DataGridView
+                    // Bind the data to the DataGridView
                     dataGridViewBooks.DataSource = dt;
                 }
             }

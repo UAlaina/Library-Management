@@ -51,7 +51,7 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.availabailityLabel);
             this.groupBox1.Controls.Add(this.availabilityComboBox);
             this.groupBox1.Controls.Add(this.publishDateTimePicker);
@@ -68,194 +68,103 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.ISBNLabel);
             this.groupBox1.Controls.Add(this.bookLabel);
-            this.groupBox1.Location = new System.Drawing.Point(34, 21);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(695, 605);
-            this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Add Book Details";
             // 
             // availabailityLabel
             // 
-            this.availabailityLabel.AutoSize = true;
-            this.availabailityLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.availabailityLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.availabailityLabel.Location = new System.Drawing.Point(49, 499);
-            this.availabailityLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.availabailityLabel, "availabailityLabel");
             this.availabailityLabel.Name = "availabailityLabel";
-            this.availabailityLabel.Size = new System.Drawing.Size(96, 24);
-            this.availabailityLabel.TabIndex = 19;
-            this.availabailityLabel.Text = "Availability";
             // 
             // availabilityComboBox
             // 
+            resources.ApplyResources(this.availabilityComboBox, "availabilityComboBox");
             this.availabilityComboBox.FormattingEnabled = true;
             this.availabilityComboBox.Items.AddRange(new object[] {
-            "Available",
-            "Unavailable"});
-            this.availabilityComboBox.Location = new System.Drawing.Point(229, 499);
+            resources.GetString("availabilityComboBox.Items"),
+            resources.GetString("availabilityComboBox.Items1")});
             this.availabilityComboBox.Name = "availabilityComboBox";
-            this.availabilityComboBox.Size = new System.Drawing.Size(265, 24);
-            this.availabilityComboBox.TabIndex = 18;
             // 
             // publishDateTimePicker
             // 
-            this.publishDateTimePicker.Location = new System.Drawing.Point(229, 217);
-            this.publishDateTimePicker.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.publishDateTimePicker, "publishDateTimePicker");
             this.publishDateTimePicker.Name = "publishDateTimePicker";
-            this.publishDateTimePicker.Size = new System.Drawing.Size(265, 22);
-            this.publishDateTimePicker.TabIndex = 14;
             // 
             // editionTextBox
             // 
-            this.editionTextBox.Location = new System.Drawing.Point(229, 290);
-            this.editionTextBox.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.editionTextBox, "editionTextBox");
             this.editionTextBox.Name = "editionTextBox";
-            this.editionTextBox.Size = new System.Drawing.Size(265, 22);
-            this.editionTextBox.TabIndex = 13;
             // 
             // authorTextBox
             // 
-            this.authorTextBox.Location = new System.Drawing.Point(229, 165);
-            this.authorTextBox.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.authorTextBox, "authorTextBox");
             this.authorTextBox.Name = "authorTextBox";
-            this.authorTextBox.Size = new System.Drawing.Size(265, 22);
-            this.authorTextBox.TabIndex = 11;
             // 
             // ISBNtextBox
             // 
-            this.ISBNtextBox.Location = new System.Drawing.Point(229, 117);
-            this.ISBNtextBox.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.ISBNtextBox, "ISBNtextBox");
             this.ISBNtextBox.Name = "ISBNtextBox";
-            this.ISBNtextBox.Size = new System.Drawing.Size(265, 22);
-            this.ISBNtextBox.TabIndex = 10;
             // 
             // descriptionRichTextBox
             // 
-            this.descriptionRichTextBox.Location = new System.Drawing.Point(229, 357);
-            this.descriptionRichTextBox.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.descriptionRichTextBox, "descriptionRichTextBox");
             this.descriptionRichTextBox.Name = "descriptionRichTextBox";
-            this.descriptionRichTextBox.Size = new System.Drawing.Size(265, 110);
-            this.descriptionRichTextBox.TabIndex = 9;
-            this.descriptionRichTextBox.Text = "";
             // 
             // bookTextBox
             // 
-            this.bookTextBox.Location = new System.Drawing.Point(229, 59);
-            this.bookTextBox.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.bookTextBox, "bookTextBox");
             this.bookTextBox.Name = "bookTextBox";
-            this.bookTextBox.Size = new System.Drawing.Size(265, 22);
-            this.bookTextBox.TabIndex = 8;
             // 
             // backButton
             // 
-            this.backButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.backButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.backButton.Location = new System.Drawing.Point(390, 553);
-            this.backButton.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.Name = "backButton";
-            this.backButton.Size = new System.Drawing.Size(123, 44);
-            this.backButton.TabIndex = 7;
-            this.backButton.Text = "Back";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // addButton
             // 
-            this.addButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.addButton.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.addButton.Location = new System.Drawing.Point(217, 553);
-            this.addButton.Margin = new System.Windows.Forms.Padding(4);
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.Name = "addButton";
-            this.addButton.Size = new System.Drawing.Size(127, 44);
-            this.addButton.TabIndex = 6;
-            this.addButton.Text = "Add Book";
             this.addButton.UseVisualStyleBackColor = true;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label6.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label6.Location = new System.Drawing.Point(49, 405);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(104, 24);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Description";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label5.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label5.Location = new System.Drawing.Point(49, 290);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(68, 24);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Edition";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label4.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label4.Location = new System.Drawing.Point(49, 217);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.label4, "label4");
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(137, 24);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Published Date";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.label3.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label3.Location = new System.Drawing.Point(49, 167);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.label3, "label3");
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 24);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Author";
             // 
             // ISBNLabel
             // 
-            this.ISBNLabel.AutoSize = true;
-            this.ISBNLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.ISBNLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.ISBNLabel.Location = new System.Drawing.Point(49, 119);
-            this.ISBNLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.ISBNLabel, "ISBNLabel");
             this.ISBNLabel.Name = "ISBNLabel";
-            this.ISBNLabel.Size = new System.Drawing.Size(87, 24);
-            this.ISBNLabel.TabIndex = 1;
-            this.ISBNLabel.Text = "ISBN No:";
             // 
             // bookLabel
             // 
-            this.bookLabel.AutoSize = true;
-            this.bookLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F);
-            this.bookLabel.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.bookLabel.Location = new System.Drawing.Point(49, 59);
-            this.bookLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resources.ApplyResources(this.bookLabel, "bookLabel");
             this.bookLabel.Name = "bookLabel";
-            this.bookLabel.Size = new System.Drawing.Size(149, 24);
-            this.bookLabel.TabIndex = 0;
-            this.bookLabel.Text = "Title of the Book:";
             // 
-            // addBook
+            // AddBook
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(762, 647);
             this.Controls.Add(this.groupBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "addBook";
-            this.Text = "Add Book";
+            this.Name = "AddBook";
             this.Load += new System.EventHandler(this.addBook_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
