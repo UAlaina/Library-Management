@@ -14,6 +14,12 @@ namespace MLMS
 {
     public partial class addMemberForm : Form
     {
+        //roy path
+        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        //alaina path
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+
+
         public addMemberForm()
         {
             InitializeComponent();
@@ -35,6 +41,8 @@ namespace MLMS
             string phoneNumber = phoneNoTextBox.Text;
             string email = emailTextBox.Text;
             string password = passwordTextBox.Text;
+
+            //Mess
             //string confirmPassword = confirmPasswordTextBox.Text;
 
             //if (password != confirmPassword)
@@ -51,7 +59,10 @@ namespace MLMS
             }
 
             // Get the connection string from the App.config file
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+            //string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+
+            //roy path
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
             // SQL query to insert the member into the database
             string memberQuery = "INSERT INTO Member (FullName, Address, DOB, PhoneNumber, Email, Password) VALUES (@FullName, @Address, @DOB, @PhoneNumber, @Email, @Password)";
@@ -99,7 +110,10 @@ namespace MLMS
             bool exists = false;
 
             // Get the connection string from the App.config file
-            string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+            //string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+
+            //roy path
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {

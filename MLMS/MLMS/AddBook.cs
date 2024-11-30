@@ -15,6 +15,12 @@ namespace MLMS
 {
     public partial class AddBook : Form
     {
+        //roy path
+        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+        //alaina path
+        string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+
+
         public AddBook()
         {
             InitializeComponent();
@@ -55,13 +61,14 @@ namespace MLMS
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\Documents\GitHub\MLMS\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
             //roy path
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
             // relative path
             //string relativePath = Path.Combine("..", "..", "..", "App_Data", "Library.mdf");
             //string dbPath = Path.GetFullPath(relativePath);
             //string connectionString = $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True;Connect Timeout=30;";
-
+            
+            //string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             // SQL query to insert the book into the database
             string query = @"INSERT INTO Book (Title, ISBN, Author, YearPublished, Description, Availability) 
@@ -165,7 +172,7 @@ namespace MLMS
             // Convert availability to a boolean
             bool isAvailable = availability == "Available";
 
-            string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
+            //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
             string query = @"INSERT INTO Book (Title, ISBN, Author, YearPublished, Description, Availability) 
                      VALUES (@Title, @ISBN, @Author, @YearPublished, @Description, @Availability)";
 
