@@ -127,9 +127,6 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Search by</value>
   </data>
-  <data name="&gt;&gt;label1.Name" xml:space="preserve">
-    <value>label1</value>
-  </data>
   <data name="&gt;&gt;searchByComboBox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
@@ -142,6 +139,9 @@
   </data>
   <data name="&gt;&gt;searchByComboBox.Name" xml:space="preserve">
     <value>searchByComboBox</value>
+  </data>
+  <data name="&gt;&gt;searchByComboBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="reserveBookButton.Text" xml:space="preserve">
     <value>Reserve Book</value>
@@ -157,9 +157,6 @@
   </data>
   <data name="&gt;&gt;statusLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>8</value>
   </data>
   <data name="searchByComboBox.Items" xml:space="preserve">
     <value>By book name</value>
@@ -192,11 +189,8 @@
   <data name="&gt;&gt;reserveBookButton.Name" xml:space="preserve">
     <value>reserveBookButton</value>
   </data>
-  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
-    <value>backButton</value>
+  <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 16</value>
@@ -210,14 +204,11 @@
   <data name="backButton.Text" xml:space="preserve">
     <value>Back</value>
   </data>
-  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+  <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;searchButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
   </data>
   <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>158, 235</value>
@@ -237,6 +228,9 @@
   <data name="reserveBookButton.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
   </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -249,11 +243,11 @@
   <data name="&gt;&gt;searchTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
   </data>
-  <data name="statusComboBox.Items1" xml:space="preserve">
-    <value>Cancelled</value>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 235</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -282,11 +276,14 @@
   <data name="statusComboBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
+  <data name="&gt;&gt;searchTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;statusLabel.Name" xml:space="preserve">
     <value>statusLabel</value>
   </data>
-  <data name="statusLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ReserveBook</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
     <value>21, 20</value>
@@ -309,8 +306,8 @@
   <data name="searchByComboBox.Items3" xml:space="preserve">
     <value>By published date</value>
   </data>
-  <data name="searchTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>514, 647</value>
   </data>
   <data name="reserveBookButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>287, 235</value>
@@ -330,8 +327,8 @@
   <data name="searchByComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>239, 76</value>
   </data>
-  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>8</value>
   </data>
   <data name="statusComboBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>239, 176</value>
@@ -369,14 +366,14 @@
   <data name="statusLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="&gt;&gt;label2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>ReserveBook</value>
+  <data name="statusLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;searchTextBox.ZOrder" xml:space="preserve">
     <value>6</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="&gt;&gt;statusComboBox.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -384,17 +381,20 @@
   <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>514, 647</value>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="searchByComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 235</value>
+  <data name="backButton.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label1.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -423,11 +423,11 @@
   <data name="reserveBookButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;searchByComboBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="&gt;&gt;backButton.Name" xml:space="preserve">
+    <value>backButton</value>
   </data>
-  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="statusComboBox.Items1" xml:space="preserve">
+    <value>Cancelled</value>
   </data>
   <data name="&gt;&gt;backButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

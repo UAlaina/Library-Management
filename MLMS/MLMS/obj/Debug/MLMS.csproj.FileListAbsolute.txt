@@ -358,3 +358,5 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\aa\MLMS.r
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.addMemberForm.fr.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.MainDashbboard.fr.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.ReserveBook.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.UserLogin.fr.resources

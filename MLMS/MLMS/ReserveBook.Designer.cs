@@ -35,11 +35,11 @@
             this.statusLabel = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
             this.searchButton = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.searchTextBox = new System.Windows.Forms.TextBox();
+            this.dataGridViewBooks = new System.Windows.Forms.DataGridView();
             this.searchByComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridViewBooks = new System.Windows.Forms.DataGridView();
+            this.searchTextBox = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBooks)).BeginInit();
             this.SuspendLayout();
@@ -94,15 +94,15 @@
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
-            // label2
+            // dataGridViewBooks
             // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
-            // 
-            // searchTextBox
-            // 
-            resources.ApplyResources(this.searchTextBox, "searchTextBox");
-            this.searchTextBox.Name = "searchTextBox";
+            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
+            this.dataGridViewBooks.AllowUserToAddRows = false;
+            this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewBooks.Name = "dataGridViewBooks";
+            this.dataGridViewBooks.ReadOnly = true;
+            this.dataGridViewBooks.RowTemplate.Height = 24;
             // 
             // searchByComboBox
             // 
@@ -120,15 +120,15 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // dataGridViewBooks
+            // searchTextBox
             // 
-            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
-            this.dataGridViewBooks.AllowUserToAddRows = false;
-            this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewBooks.Name = "dataGridViewBooks";
-            this.dataGridViewBooks.ReadOnly = true;
-            this.dataGridViewBooks.RowTemplate.Height = 24;
+            resources.ApplyResources(this.searchTextBox, "searchTextBox");
+            this.searchTextBox.Name = "searchTextBox";
+            // 
+            // label2
+            // 
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
             // 
             // ReserveBook
             // 
@@ -151,11 +151,11 @@
         private System.Windows.Forms.Label statusLabel;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.DataGridView dataGridViewBooks;
+        private System.Windows.Forms.Button reserveBookButton;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox searchTextBox;
         private System.Windows.Forms.ComboBox searchByComboBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridViewBooks;
-        private System.Windows.Forms.Button reserveBookButton;
     }
 }

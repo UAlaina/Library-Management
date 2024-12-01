@@ -27,6 +27,8 @@ namespace MLMS2
             this.Hide();
         }
 
+
+
         private void searchButton_Click(object sender, EventArgs e)
         {
             string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
@@ -67,7 +69,8 @@ namespace MLMS2
                 YearPublished, 
                 Edition,
                 Description,
-                Availability
+                Availability,
+                DueDate
             FROM Book
             WHERE {(conditions.Count > 0 ? string.Join(" AND ", conditions) : "1=1")}";
 
@@ -112,11 +115,16 @@ namespace MLMS2
                 // Get the BookID from the selected row
                 int selectedBookId = Convert.ToInt32(dataGridViewBooks.SelectedRows[0].Cells["BookId"].Value);
 
+                //DateTime dueDate = Convert.ToDateTime(dataGridViewBooks.SelectedRows[0].Cells["DueDate"].Value);
+                object dueDateValue = dataGridViewBooks.SelectedRows[0].Cells["DueDate"].Value;
+                DateTime dueDate = (dueDateValue == DBNull.Value) ? DateTime.Now.AddDays(14) : Convert.ToDateTime(dueDateValue);
+
                 string status = "Reserved";
+                DateTime DueDate = DateTime.Now.AddDays(14);
 
                 // Insert reservation into the database
-                string query = @"INSERT INTO ReserveBooks (BookId, MemberId, Status)
-                         VALUES (@BookId, @MemberId, @Status)";
+                string query = @"INSERT INTO ReserveBooks (BookId, MemberId, Status, DueDate)
+                         VALUES (@BookId, @MemberId, @Status, @DueDate)";
 
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 using (SqlCommand cmd = new SqlCommand(query, conn))
@@ -124,6 +132,7 @@ namespace MLMS2
                     cmd.Parameters.AddWithValue("@BookId", selectedBookId);
                     cmd.Parameters.AddWithValue("@MemberId", loggedInMemberId);
                     cmd.Parameters.AddWithValue("@Status", status);
+                    cmd.Parameters.AddWithValue("@DueDate", dueDate);
 
                     conn.Open();
                     int rowsAffected = cmd.ExecuteNonQuery();
@@ -132,8 +141,16 @@ namespace MLMS2
                     {
                         MessageBox.Show("Reservation added successfully!", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
+                        // Open the Payment form with a fixed amount of $10
+                        Payment paymentForm = new Payment();
+                        Payment.AmountTextBox.Text = "10.00"; // Set the fixed amount
+
+                        this.Hide(); // Hide the current form
+                        paymentForm.ShowDialog(); // Show the Payment form as a modal dialog
+                        this.Close();
+
                         // Optionally refresh the grid view
-                        LoadReservations();
+                        //LoadReservations();
                     }
                     else
                     {
@@ -151,6 +168,21 @@ namespace MLMS2
             }
         }
 
+        private void CalculateLateFee(DateTime dueDate)
+        {
+            DateTime returnDate = DateTime.Now;
+            if (returnDate > dueDate)
+            {
+                int lateDays = (returnDate - dueDate).Days;
+                decimal lateFee = lateDays * 1.45m;  // Late fee is $1.45 per day
+                Payment.AmountTextBox.Text = lateFee.ToString("C");
+            }
+            else
+            {
+                Payment.AmountTextBox.Text = "0.00";  // No fee if returned on time
+            }
+        }
+
         private int GetLoggedInMemberID()
         {
             return UserSession.MemberID;
@@ -163,7 +195,7 @@ namespace MLMS2
             try
             {
                 string query = @"
-                SELECT R.ReserveID, B.Title, M.FullName, R.ReserveDate, R.Status
+                SELECT R.ReserveID, B.Title, M.FullName, R.ReserveDate, R.Status, R.DueDate
                 FROM ReserveBooks R
                 INNER JOIN Book B ON R.BookId = B.BookId
                 INNER JOIN Member M ON R.MemberId = M.MemberId";

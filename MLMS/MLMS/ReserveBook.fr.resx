@@ -117,10 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="reserveBookButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>121, 32</value>
+  </data>
   <data name="reserveBookButton.Text" xml:space="preserve">
     <value>Réserver un livre</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>40, 16</value>
   </data>
@@ -133,11 +136,18 @@
   <data name="searchButton.Text" xml:space="preserve">
     <value>Recherche</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
     <value>73, 16</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Recherche</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>100, 16</value>
@@ -145,8 +155,17 @@
   <data name="label1.Text" xml:space="preserve">
     <value>Rechercher par</value>
   </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 337</value>
+  </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Réserver un livre</value>
+  </data>
+  <data name="dataGridViewBooks.Size" type="System.Drawing.Size, System.Drawing">
+    <value>553, 271</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>604, 647</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3236,6 +3255,9 @@
         /VlsffFFzI7sgSKKCHd0InTOG1HYuhWxs9ZgZucO9F1wgbO15+Dg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Réserver un livre</value>

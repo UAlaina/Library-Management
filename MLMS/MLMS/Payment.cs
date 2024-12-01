@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MLMS;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
@@ -33,6 +34,7 @@ namespace MLMS2
         public Payment()
         {
             InitializeComponent();
+            AmountTextBox = amountTextBox;
         }
 
         private void backButton_Click(object sender, EventArgs e)
@@ -41,7 +43,7 @@ namespace MLMS2
             B.Show();
             this.Hide();
         }
-
+        public static TextBox AmountTextBox { get; set; }
         private void payButton_Click(object sender, EventArgs e)
         {
             try
@@ -92,6 +94,10 @@ namespace MLMS2
 
                 // Show success message
                 MessageBox.Show($"Payment of {amount:C} successful for {name}!");
+
+                MainDashbboard M = new MainDashbboard();
+                M.Show();
+                this.Hide();
             }
             catch (Exception ex)
             {

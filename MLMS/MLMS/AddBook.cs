@@ -39,7 +39,7 @@ namespace MLMS
         private void addButton_Click(object sender, EventArgs e)
         {
             //testing:
-            MessageBox.Show(Directory.GetCurrentDirectory());
+            //MessageBox.Show(Directory.GetCurrentDirectory());
             
             // Retrieve values from the form inputs
             string title = bookTextBox.Text;
@@ -59,6 +59,8 @@ namespace MLMS
             // Convert availability to a boolean
             bool isAvailable = availability == "Available";
 
+            DateTime dueDate = DateTime.Now.AddDays(30);
+
             // Define the connection string (update with your connection string)
             //Alaina path
             //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\Documents\GitHub\MLMS\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
@@ -75,8 +77,8 @@ namespace MLMS
             //string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
             // SQL query to insert the book into the database
-            string query = @"INSERT INTO Book (Title, ISBN, Author, YearPublished, Description, Availability) 
-                     VALUES (@Title, @ISBN, @Author, @YearPublished, @Description, @Availability)";
+            string query = @"INSERT INTO Book (Title, ISBN, Author, YearPublished, Description, Availability, DueDate) 
+                     VALUES (@Title, @ISBN, @Author, @YearPublished, @Description, @Availability, @DueDate)";
 
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
@@ -95,6 +97,7 @@ namespace MLMS
                     cmd.Parameters.AddWithValue("@Edition", edition);
                     cmd.Parameters.AddWithValue("@Description", description);
                     cmd.Parameters.AddWithValue("@Availability", isAvailable ? 1 : 0);
+                    cmd.Parameters.AddWithValue("@DueDate", dueDate);
 
                     // Execute the command
                     int result = cmd.ExecuteNonQuery();
