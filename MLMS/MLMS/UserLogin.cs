@@ -22,6 +22,7 @@ namespace MLMS
 
         private void loginButton_Click(object sender, EventArgs e)
         {
+            MessageBox.Show(AppDomain.CurrentDomain.BaseDirectory);
             string username = emailTextBox.Text;
             string password = passwordTextBox.Text;
 
@@ -40,6 +41,7 @@ namespace MLMS
                 StoreLoggedInUser(username);
 
                 MainDashbboard dashboard = new MainDashbboard();
+                //MessageBox.Show("here");
                 dashboard.Show();
                 this.Hide();
             }
@@ -56,32 +58,38 @@ namespace MLMS
             // Get the connection string from the App.config file
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
+            MessageBox.Show("1");
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
+                MessageBox.Show("1.5");
                 conn.Open();
                 string query = "SELECT Password,MemberID FROM Member WHERE Email = @Email";
-
+                MessageBox.Show("2");
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Email", username);
                     //string storedPassword = (string)cmd.ExecuteScalar();
-
+                    //MessageBox.Show("3");
                     // Use SqlDataReader to get both Password and MemberID
                     using (SqlDataReader reader = cmd.ExecuteReader())
                     {
+                        //MessageBox.Show("4");
                         if (reader.Read()) // Check if data is found
                         {
+                            //MessageBox.Show("5");
                             string storedPassword = reader.GetString(0); // First column (Password)
                             int memberId = reader.GetInt32(1); // Second column (MemberID)
 
                             // Check if the password matches
                             if (storedPassword == password)
                             {
+                                //MessageBox.Show("6");
                                 // Store MemberID and Email in UserSession
                                 UserSession.MemberID = memberId;
                                 UserSession.Email = username;
                                 isValid = true;
                             }
+                            //MessageBox.Show("7");
                         }
                         else
                         {

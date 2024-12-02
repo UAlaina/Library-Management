@@ -120,7 +120,6 @@ C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.exe.config
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.resources
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.addMemberForm.resources
-C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.IssueBook.resources
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.MainDashbboard.resources
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.resources
 C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.Properties.Resources.resources
@@ -360,3 +359,15 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Mai
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.fr.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.ReserveBook.fr.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.UserLogin.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\bin\Debug\aa\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\bin\Debug\fr\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.aa.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.addMemberForm.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.MainDashbboard.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.Payment.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.ReserveBook.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.UserLogin.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS2.WelcomeScreen.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\aa\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\fr\MLMS.resources.dll
