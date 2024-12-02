@@ -239,5 +239,10 @@ namespace MLMS
             availabilityComboBox.Items.Add("Unavailable");
             availabilityComboBox.SelectedIndex = 0;
         }
+
+        private void publishDateTimePicker_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,6 +16,8 @@ namespace MLMS2
         public WelcomeScreen()
         {
             InitializeComponent();
+            this.BackgroundImageLayout = ImageLayout.Stretch;
+            //WelcomeScreen.BackgroundImageLayout = ImageLayout.Stretch;
         }
 
         private void addUserButton_Click(object sender, EventArgs e)
@@ -60,6 +62,11 @@ namespace MLMS2
             // Reload the form to apply the language
             this.Controls.Clear();
             InitializeComponent();
+        }
+
+        private void WelcomeScreen_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

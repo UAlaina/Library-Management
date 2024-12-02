@@ -228,9 +228,6 @@
   <data name="&gt;&gt;paymentButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;reserveButton.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="&gt;&gt;emailLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -242,6 +239,9 @@
   </data>
   <data name="&gt;&gt;contactLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reserveButton.Name" xml:space="preserve">
+    <value>reserveButton</value>
   </data>
   <data name="&gt;&gt;inputsuggestionRichTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -279,14 +279,14 @@
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="&gt;&gt;inputsuggestionRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
   <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Gill Sans Ultra Bold, 8.25pt</value>
   </data>
   <data name="contactLabel.Text" xml:space="preserve">
     <value>Contact: 0111223344</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="inputsuggestionRichTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -324,8 +324,8 @@
   <data name="&gt;&gt;emailLabel.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="&gt;&gt;inputsuggestionRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="&gt;&gt;reserveButton.ZOrder" xml:space="preserve">
+    <value>1</value>
   </data>
   <data name="suggestionLlabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 11.25pt, style=Bold</value>
@@ -335,6 +335,9 @@
   </data>
   <data name="emailLabel.Text" xml:space="preserve">
     <value>Enquiries: abc@dodo.au</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainDashbboard</value>
   </data>
   <data name="reserveButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -354,11 +357,11 @@
   <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
   <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 49</value>
   </data>
   <data name="emailLabel.Font" type="System.Drawing.Font, System.Drawing">
     <value>Verdana, 11.25pt, style=Bold</value>
@@ -372,11 +375,11 @@
   <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 23</value>
   </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainDashbboard</value>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 49</value>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
   <data name="paymentButton.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -395,9 +398,6 @@
   </data>
   <data name="suggestionLlabel.Text" xml:space="preserve">
     <value>Any suggestions:</value>
-  </data>
-  <data name="&gt;&gt;contactLabel.Name" xml:space="preserve">
-    <value>contactLabel</value>
   </data>
   <data name="memberButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>32, 171</value>
@@ -429,8 +429,8 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;reserveButton.Name" xml:space="preserve">
-    <value>reserveButton</value>
+  <data name="&gt;&gt;contactLabel.Name" xml:space="preserve">
+    <value>contactLabel</value>
   </data>
   <data name="emailLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>

@@ -68,7 +68,9 @@
             this.Controls.Add(this.comboBoxLanguage);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.addUserButton);
+            this.DoubleBuffered = true;
             this.Name = "WelcomeScreen";
+            this.Load += new System.EventHandler(this.WelcomeScreen_Load);
             this.ResumeLayout(false);
 
         }

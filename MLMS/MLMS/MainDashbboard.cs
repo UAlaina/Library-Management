@@ -45,5 +45,10 @@ namespace MLMS2
             P.Show();
             this.Hide();
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }

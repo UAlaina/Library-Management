@@ -3,48 +3,36 @@
   "WorkspaceRootPath": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\reservebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\reservebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\userlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\userlogin.fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.fr.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\userlogin.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\reservebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addmember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\reservebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\reservebook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\addbook.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\maindashbboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\maindashbboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|c:\\school_projects\\git_repositories\\library-management\\mlms\\mlms\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\welcomescreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\mlms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BEED8EB3-BC94-4568-9762-7B1BD3806D80}|MLMS\\MLMS.csproj|solutionrelative:mlms\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "App.config",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\App.config",
               "RelativeDocumentMoniker": "MLMS\\App.config",
@@ -72,127 +60,88 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs",
-              "RelativeDocumentMoniker": "MLMS\\UserLogin.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs",
-              "RelativeToolTip": "MLMS\\UserLogin.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAIAwwBoAAAAOAAAA",
+              "DocumentIndex": 5,
+              "Title": "MainDashbboard.cs [Design - French]",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\MainDashbboard.cs",
+              "RelativeDocumentMoniker": "MLMS\\MainDashbboard.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\MainDashbboard.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\MainDashbboard.cs [Design - French]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:55:46.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T18:30:16.147Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design - French]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ReserveBook.cs",
+              "Title": "ReserveBook.cs [Design - French]",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\ReserveBook.cs",
               "RelativeDocumentMoniker": "MLMS\\ReserveBook.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\ReserveBook.cs",
-              "RelativeToolTip": "MLMS\\ReserveBook.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\ReserveBook.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\ReserveBook.cs [Design - French]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:42:59.585Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:13:22.751Z",
+              "EditorCaption": " [Design - French]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddMember.cs [Design - French]",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddMember.cs",
+              "RelativeDocumentMoniker": "MLMS\\AddMember.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddMember.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\AddMember.cs [Design - French]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:08:31.017Z",
+              "EditorCaption": " [Design - French]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Payment.cs [Design - French]",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
+              "RelativeDocumentMoniker": "MLMS\\Payment.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\Payment.cs [Design - French]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-01T19:45:01.965Z",
+              "EditorCaption": " [Design - French]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserLogin.Designer.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.Designer.cs",
-              "RelativeDocumentMoniker": "MLMS\\UserLogin.Designer.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.Designer.cs",
-              "RelativeToolTip": "MLMS\\UserLogin.Designer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UserLogin.cs [Design - French]",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs",
+              "RelativeDocumentMoniker": "MLMS\\UserLogin.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\UserLogin.cs [Design - French]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:55:38.877Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-02T19:14:48.089Z",
+              "EditorCaption": " [Design - French]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "UserLogin.fr.resx",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.fr.resx",
-              "RelativeDocumentMoniker": "MLMS\\UserLogin.fr.resx",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.fr.resx",
-              "RelativeToolTip": "MLMS\\UserLogin.fr.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-02T16:55:37.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserLogin.resx",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.resx",
-              "RelativeDocumentMoniker": "MLMS\\UserLogin.resx",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.resx",
-              "RelativeToolTip": "MLMS\\UserLogin.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-12-02T16:55:36.547Z",
-              "EditorCaption": ""
+              "Title": "AddBook.cs [Design - French]",
+              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs",
+              "RelativeDocumentMoniker": "MLMS\\AddBook.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\AddBook.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\AddBook.cs [Design - French]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T19:00:23.928Z",
+              "EditorCaption": " [Design - French]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UserLogin.cs [Design]",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs",
-              "RelativeDocumentMoniker": "MLMS\\UserLogin.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\UserLogin.cs [Design]",
-              "RelativeToolTip": "MLMS\\UserLogin.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-02T16:55:26.789Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "WelcomeScreen.cs",
+              "Title": "WelcomeScreen.cs [Design - French]",
               "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\WelcomeScreen.cs",
               "RelativeDocumentMoniker": "MLMS\\WelcomeScreen.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\WelcomeScreen.cs",
-              "RelativeToolTip": "MLMS\\WelcomeScreen.cs",
+              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\WelcomeScreen.cs [Design - French]",
+              "RelativeToolTip": "MLMS\\WelcomeScreen.cs [Design - French]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T20:29:45.609Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReserveBook.cs [Design]",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\ReserveBook.cs",
-              "RelativeDocumentMoniker": "MLMS\\ReserveBook.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\ReserveBook.cs [Design]",
-              "RelativeToolTip": "MLMS\\ReserveBook.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:52:07.353Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Payment.cs",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
-              "RelativeDocumentMoniker": "MLMS\\Payment.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
-              "RelativeToolTip": "MLMS\\Payment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:48:51.408Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Payment.cs [Design]",
-              "DocumentMoniker": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs",
-              "RelativeDocumentMoniker": "MLMS\\Payment.cs",
-              "ToolTip": "C:\\School_Projects\\Git_Repositories\\Library-Management\\MLMS\\MLMS\\Payment.cs [Design]",
-              "RelativeToolTip": "MLMS\\Payment.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:45:01.965Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-02T17:59:07.237Z",
+              "EditorCaption": " [Design - French]"
             }
           ]
         }

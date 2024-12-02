@@ -52,6 +52,7 @@
             // groupBox1
             // 
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.availabailityLabel);
             this.groupBox1.Controls.Add(this.availabilityComboBox);
             this.groupBox1.Controls.Add(this.publishDateTimePicker);
@@ -89,6 +90,7 @@
             // 
             resources.ApplyResources(this.publishDateTimePicker, "publishDateTimePicker");
             this.publishDateTimePicker.Name = "publishDateTimePicker";
+            this.publishDateTimePicker.ValueChanged += new System.EventHandler(this.publishDateTimePicker_ValueChanged);
             // 
             // editionTextBox
             // 
@@ -118,15 +120,19 @@
             // backButton
             // 
             resources.ApplyResources(this.backButton, "backButton");
+            this.backButton.BackColor = System.Drawing.Color.Salmon;
+            this.backButton.ForeColor = System.Drawing.Color.White;
             this.backButton.Name = "backButton";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // addButton
             // 
             resources.ApplyResources(this.addButton, "addButton");
+            this.addButton.BackColor = System.Drawing.Color.Salmon;
+            this.addButton.ForeColor = System.Drawing.Color.White;
             this.addButton.Name = "addButton";
-            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.UseVisualStyleBackColor = false;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // label6
@@ -163,6 +169,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.groupBox1);
             this.Name = "AddBook";
             this.Load += new System.EventHandler(this.addBook_Load);

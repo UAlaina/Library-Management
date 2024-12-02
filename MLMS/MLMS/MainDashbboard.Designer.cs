@@ -46,57 +46,68 @@
             // groupBox1
             // 
             resources.ApplyResources(this.groupBox1, "groupBox1");
-            this.groupBox1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.groupBox1.BackColor = System.Drawing.Color.Bisque;
             this.groupBox1.Controls.Add(this.paymentButton);
             this.groupBox1.Controls.Add(this.reserveButton);
             this.groupBox1.Controls.Add(this.addButton);
             this.groupBox1.Controls.Add(this.memberButton);
-            this.groupBox1.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.groupBox1.ForeColor = System.Drawing.Color.Salmon;
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // paymentButton
             // 
             resources.ApplyResources(this.paymentButton, "paymentButton");
+            this.paymentButton.BackColor = System.Drawing.Color.White;
+            this.paymentButton.ForeColor = System.Drawing.Color.Salmon;
             this.paymentButton.Name = "paymentButton";
-            this.paymentButton.UseVisualStyleBackColor = true;
+            this.paymentButton.UseVisualStyleBackColor = false;
             this.paymentButton.Click += new System.EventHandler(this.paymentButton_Click);
             // 
             // reserveButton
             // 
             resources.ApplyResources(this.reserveButton, "reserveButton");
+            this.reserveButton.BackColor = System.Drawing.Color.White;
+            this.reserveButton.ForeColor = System.Drawing.Color.Salmon;
             this.reserveButton.Name = "reserveButton";
-            this.reserveButton.UseVisualStyleBackColor = true;
+            this.reserveButton.UseVisualStyleBackColor = false;
             this.reserveButton.Click += new System.EventHandler(this.reserveButton_Click);
             // 
             // addButton
             // 
             resources.ApplyResources(this.addButton, "addButton");
+            this.addButton.BackColor = System.Drawing.Color.White;
+            this.addButton.ForeColor = System.Drawing.Color.Salmon;
             this.addButton.Name = "addButton";
-            this.addButton.UseVisualStyleBackColor = true;
+            this.addButton.UseVisualStyleBackColor = false;
             this.addButton.Click += new System.EventHandler(this.addButton_Click);
             // 
             // memberButton
             // 
             resources.ApplyResources(this.memberButton, "memberButton");
+            this.memberButton.BackColor = System.Drawing.Color.White;
+            this.memberButton.ForeColor = System.Drawing.Color.Salmon;
             this.memberButton.Name = "memberButton";
-            this.memberButton.UseVisualStyleBackColor = true;
+            this.memberButton.UseVisualStyleBackColor = false;
             this.memberButton.Click += new System.EventHandler(this.memberButton_Click);
             // 
             // groupBox2
             // 
             resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.BackColor = System.Drawing.Color.Pink;
+            this.groupBox2.BackColor = System.Drawing.Color.Peru;
             this.groupBox2.Controls.Add(this.inputsuggestionRichTextBox);
             this.groupBox2.Controls.Add(this.suggestionLlabel);
             this.groupBox2.Controls.Add(this.contactLabel);
             this.groupBox2.Controls.Add(this.emailLabel);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // inputsuggestionRichTextBox
             // 
             resources.ApplyResources(this.inputsuggestionRichTextBox, "inputsuggestionRichTextBox");
+            this.inputsuggestionRichTextBox.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.inputsuggestionRichTextBox.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
             this.inputsuggestionRichTextBox.Name = "inputsuggestionRichTextBox";
             // 
             // suggestionLlabel
@@ -118,8 +129,10 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "MainDashbboard";
             this.groupBox1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);

@@ -118,17 +118,29 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="expiryDatePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
   <data name="cardNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 16</value>
+    <value>119, 20</value>
   </data>
   <data name="cardNameLabel.Text" xml:space="preserve">
     <value>Nom de la carte</value>
+  </data>
+  <data name="cardNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 12pt, style=Bold</value>
   </data>
   <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>321, 346</value>
   </data>
   <data name="backButton.Text" xml:space="preserve">
     <value>Retour</value>
+  </data>
+  <data name="payButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 12pt, style=Bold</value>
   </data>
   <data name="payButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 346</value>
@@ -140,46 +152,64 @@
     <value>Payer maintenant</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>54, 16</value>
+    <value>68, 20</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Montant</value>
   </data>
+  <data name="amountTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="securityCodeTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 16</value>
+    <value>119, 20</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
     <value>Code de sécurité</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 16</value>
+    <value>128, 20</value>
   </data>
   <data name="label5.Text" xml:space="preserve">
     <value>Date d'expiration</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>107, 16</value>
+    <value>124, 20</value>
   </data>
   <data name="label4.Text" xml:space="preserve">
     <value>Numéro de carte</value>
   </data>
+  <data name="cardNoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 20</value>
+  </data>
   <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>71, 20</value>
+    <value>78, 24</value>
   </data>
   <data name="radioButton2.Text" xml:space="preserve">
     <value>Paypal</value>
   </data>
   <data name="creditCardRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>115, 20</value>
+    <value>130, 24</value>
   </data>
   <data name="creditCardRadioButton.Text" xml:space="preserve">
     <value>Carte de crédit</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>134, 20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Mode de paiement</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 10.1999989pt</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Détails de paiement</value>

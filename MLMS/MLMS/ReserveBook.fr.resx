@@ -118,54 +118,144 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="reserveBookButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>359, 293</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="reserveBookButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
   <data name="reserveBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 32</value>
+    <value>151, 40</value>
   </data>
   <data name="reserveBookButton.Text" xml:space="preserve">
     <value>Réserver un livre</value>
   </data>
+  <data name="statusComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 220</value>
+  </data>
+  <data name="statusComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="statusComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 28</value>
+  </data>
+  <data name="statusLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 220</value>
+  </data>
+  <data name="statusLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="statusLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>40, 16</value>
+    <value>50, 20</value>
   </data>
   <data name="statusLabel.Text" xml:space="preserve">
     <value>Statut</value>
   </data>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>197, 293</value>
+  </data>
+  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 40</value>
+  </data>
   <data name="backButton.Text" xml:space="preserve">
     <value>Retour</value>
+  </data>
+  <data name="searchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 293</value>
+  </data>
+  <data name="searchButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="searchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 40</value>
   </data>
   <data name="searchButton.Text" xml:space="preserve">
     <value>Recherche</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 165</value>
+  </data>
+  <data name="label2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>73, 16</value>
+    <value>81, 20</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
     <value>Recherche</value>
   </data>
+  <data name="searchTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 160</value>
+  </data>
+  <data name="searchTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="searchTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 26</value>
+  </data>
+  <data name="searchByComboBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>299, 95</value>
+  </data>
+  <data name="searchByComboBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="searchByComboBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>198, 28</value>
+  </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>86, 95</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 0, 6, 0</value>
+  </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>100, 16</value>
+    <value>116, 20</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
     <value>Rechercher par</value>
   </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 25</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>6, 5, 6, 5</value>
+  </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>553, 337</value>
+    <value>691, 421</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Réserver un livre</value>
   </data>
+  <data name="dataGridViewBooks.Location" type="System.Drawing.Point, System.Drawing">
+    <value>26, 455</value>
+  </data>
+  <data name="dataGridViewBooks.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="dataGridViewBooks.Size" type="System.Drawing.Size, System.Drawing">
-    <value>553, 271</value>
+    <value>691, 339</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>10, 20</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>604, 647</value>
+    <value>754, 809</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 10.1999989pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3255,9 +3345,6 @@
         /VlsffFFzI7sgSKKCHd0InTOG1HYuhWxs9ZgZucO9F1wgbO15+Dg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Réserver un livre</value>

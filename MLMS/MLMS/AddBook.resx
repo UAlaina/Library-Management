@@ -270,9 +270,6 @@
   <data name="&gt;&gt;addButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
   <data name="ISBNLabel.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
@@ -396,8 +393,8 @@
   <data name="&gt;&gt;editionTextBox.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="bookLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 59</value>
+  <data name="addButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
   </data>
   <data name="availabilityComboBox.Items1" xml:space="preserve">
     <value>Unavailable</value>
@@ -3586,6 +3583,9 @@
   </data>
   <data name="ISBNLabel.Text" xml:space="preserve">
     <value>ISBN No:</value>
+  </data>
+  <data name="bookLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 59</value>
   </data>
   <data name="&gt;&gt;availabailityLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>

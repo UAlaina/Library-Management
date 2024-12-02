@@ -35,11 +35,11 @@
             this.statusLabel = new System.Windows.Forms.Label();
             this.backButton = new System.Windows.Forms.Button();
             this.searchButton = new System.Windows.Forms.Button();
-            this.dataGridViewBooks = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.searchTextBox = new System.Windows.Forms.TextBox();
             this.searchByComboBox = new System.Windows.Forms.ComboBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.searchTextBox = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
+            this.dataGridViewBooks = new System.Windows.Forms.DataGridView();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewBooks)).BeginInit();
             this.SuspendLayout();
@@ -47,6 +47,7 @@
             // groupBox1
             // 
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.reserveBookButton);
             this.groupBox1.Controls.Add(this.statusComboBox);
             this.groupBox1.Controls.Add(this.statusLabel);
@@ -62,6 +63,7 @@
             // reserveBookButton
             // 
             resources.ApplyResources(this.reserveBookButton, "reserveBookButton");
+            this.reserveBookButton.ForeColor = System.Drawing.Color.Salmon;
             this.reserveBookButton.Name = "reserveBookButton";
             this.reserveBookButton.UseVisualStyleBackColor = true;
             this.reserveBookButton.Click += new System.EventHandler(this.reserveBookButton_Click);
@@ -83,6 +85,7 @@
             // backButton
             // 
             resources.ApplyResources(this.backButton, "backButton");
+            this.backButton.ForeColor = System.Drawing.Color.Salmon;
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
@@ -90,19 +93,20 @@
             // searchButton
             // 
             resources.ApplyResources(this.searchButton, "searchButton");
+            this.searchButton.ForeColor = System.Drawing.Color.Salmon;
             this.searchButton.Name = "searchButton";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
-            // dataGridViewBooks
+            // label2
             // 
-            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
-            this.dataGridViewBooks.AllowUserToAddRows = false;
-            this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewBooks.Name = "dataGridViewBooks";
-            this.dataGridViewBooks.ReadOnly = true;
-            this.dataGridViewBooks.RowTemplate.Height = 24;
+            resources.ApplyResources(this.label2, "label2");
+            this.label2.Name = "label2";
+            // 
+            // searchTextBox
+            // 
+            resources.ApplyResources(this.searchTextBox, "searchTextBox");
+            this.searchTextBox.Name = "searchTextBox";
             // 
             // searchByComboBox
             // 
@@ -120,20 +124,21 @@
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // searchTextBox
+            // dataGridViewBooks
             // 
-            resources.ApplyResources(this.searchTextBox, "searchTextBox");
-            this.searchTextBox.Name = "searchTextBox";
-            // 
-            // label2
-            // 
-            resources.ApplyResources(this.label2, "label2");
-            this.label2.Name = "label2";
+            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
+            this.dataGridViewBooks.AllowUserToAddRows = false;
+            this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewBooks.Name = "dataGridViewBooks";
+            this.dataGridViewBooks.ReadOnly = true;
+            this.dataGridViewBooks.RowTemplate.Height = 24;
             // 
             // ReserveBook
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.dataGridViewBooks);
             this.Controls.Add(this.groupBox1);
             this.Name = "ReserveBook";

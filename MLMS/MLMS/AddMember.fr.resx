@@ -118,11 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="passwordTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 372</value>
+  </data>
+  <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
   <data name="passwordLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 16</value>
+    <value>97, 20</value>
   </data>
   <data name="passwordLabel.Text" xml:space="preserve">
     <value>Mot de passe</value>
+  </data>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 10.1999989pt, style=Bold</value>
   </data>
   <data name="backButton.Text" xml:space="preserve">
     <value>Retour</value>
@@ -133,8 +142,35 @@
   <data name="addButton.Text" xml:space="preserve">
     <value>Ajouter un membre</value>
   </data>
+  <data name="DOBDateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 203</value>
+  </data>
+  <data name="DOBDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 316</value>
+  </data>
+  <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="phoneNoTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 267</value>
+  </data>
+  <data name="phoneNoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
+  <data name="addressRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>188, 116</value>
+  </data>
+  <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>187, 70</value>
+  </data>
+  <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 26</value>
+  </data>
   <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 16</value>
+    <value>105, 20</value>
   </data>
   <data name="emailLabel.Text" xml:space="preserve">
     <value>Adresse email</value>
@@ -143,7 +179,7 @@
     <value>25, 270</value>
   </data>
   <data name="PhoneNoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>137, 16</value>
+    <value>155, 20</value>
   </data>
   <data name="PhoneNoLabel.Text" xml:space="preserve">
     <value>Numéro de téléphone</value>
@@ -152,19 +188,25 @@
     <value>34, 203</value>
   </data>
   <data name="dobLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 16</value>
+    <value>131, 20</value>
   </data>
   <data name="dobLabel.Text" xml:space="preserve">
     <value>Date de naissance</value>
+  </data>
+  <data name="addressLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 20</value>
   </data>
   <data name="addressLabel.Text" xml:space="preserve">
     <value>Adresse</value>
   </data>
   <data name="nameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 16</value>
+    <value>116, 20</value>
   </data>
   <data name="nameLabel.Text" xml:space="preserve">
     <value>Nom et prénom</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Modern No. 20, 10.1999989pt</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Ajouter les détails du membre</value>

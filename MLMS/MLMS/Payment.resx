@@ -138,6 +138,9 @@
   <data name="&gt;&gt;label6.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
   <data name="payButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 41</value>
   </data>
@@ -149,9 +152,6 @@
   </data>
   <data name="creditCardRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;cardNameTextBox.Name" xml:space="preserve">
-    <value>cardNameTextBox</value>
   </data>
   <data name="&gt;&gt;label4.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -174,6 +174,9 @@
   <data name="&gt;&gt;securityCodeTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
+  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 271</value>
   </data>
@@ -195,17 +198,14 @@
   <data name="&gt;&gt;radioButton2.Name" xml:space="preserve">
     <value>radioButton2</value>
   </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="cardNameLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="amountTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
-  </data>
-  <data name="&gt;&gt;payButton.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -215,9 +215,6 @@
   </data>
   <data name="securityCodeTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;label4.Name" xml:space="preserve">
-    <value>label4</value>
   </data>
   <data name="&gt;&gt;label7.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -255,12 +252,6 @@
   <data name="label5.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;payButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="amountTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -285,8 +276,8 @@
   <data name="creditCardRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;creditCardRadioButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
     <value>Amount</value>
@@ -327,14 +318,17 @@
   <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>192, 108</value>
   </data>
-  <data name="&gt;&gt;expireTextBox.Name" xml:space="preserve">
-    <value>expireTextBox</value>
+  <data name="&gt;&gt;label5.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
   <data name="&gt;&gt;cardNameLabel.ZOrder" xml:space="preserve">
     <value>1</value>
+  </data>
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -344,6 +338,9 @@
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Payment</value>
+  </data>
+  <data name="&gt;&gt;creditCardRadioButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
     <value>9</value>
@@ -360,14 +357,14 @@
   <data name="&gt;&gt;label4.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  <data name="&gt;&gt;expireTextBox.Name" xml:space="preserve">
+    <value>expireTextBox</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>10</value>
   </data>
-  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
   </data>
   <data name="securityCodeTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
@@ -408,6 +405,9 @@
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;creditCardRadioButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
   <data name="&gt;&gt;cardNameTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
@@ -426,8 +426,8 @@
   <data name="&gt;&gt;emailTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>16</value>
+  <data name="&gt;&gt;payButton.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
   <data name="radioButton2.Text" xml:space="preserve">
     <value>Pay pal</value>
@@ -3539,8 +3539,8 @@
   <data name="backButton.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
   </data>
-  <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+  <data name="&gt;&gt;expiryDatePicker.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
     <value>35, 198</value>
@@ -3557,14 +3557,11 @@
   <data name="label3.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>52, 16</value>
-  </data>
   <data name="&gt;&gt;amountTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;payButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;expireTextBox.ZOrder" xml:space="preserve">
     <value>1</value>
@@ -3580,6 +3577,9 @@
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
     <value>31, 307</value>
+  </data>
+  <data name="amountTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
   </data>
   <data name="&gt;&gt;label7.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3601,6 +3601,9 @@
   </data>
   <data name="&gt;&gt;label3.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
+    <value>emailTextBox</value>
   </data>
   <data name="cardNameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -3659,9 +3662,6 @@
   <data name="cardNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
-  <data name="cardNoTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
@@ -3677,8 +3677,11 @@
   <data name="expireTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;creditCardRadioButton.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+  </data>
+  <data name="cardNoTextBox.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
   </data>
   <data name="amountTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>192, 304</value>
@@ -3692,11 +3695,8 @@
   <data name="&gt;&gt;securityCodeTextBox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
-    <value>groupBox1</value>
-  </data>
-  <data name="&gt;&gt;expiryDatePicker.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>52, 16</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3737,11 +3737,11 @@
   <data name="backButton.Text" xml:space="preserve">
     <value>Back</value>
   </data>
-  <data name="cardNoTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+  <data name="cardNoTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
-    <value>emailTextBox</value>
+  <data name="&gt;&gt;cardNameTextBox.Name" xml:space="preserve">
+    <value>cardNameTextBox</value>
   </data>
   <data name="creditCardRadioButton.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3749,8 +3749,8 @@
   <data name="&gt;&gt;cardNoTextBox.Name" xml:space="preserve">
     <value>cardNoTextBox</value>
   </data>
-  <data name="amountTextBox.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>

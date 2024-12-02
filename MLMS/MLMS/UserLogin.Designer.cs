@@ -72,7 +72,8 @@
             // backButton
             // 
             resources.ApplyResources(this.backButton, "backButton");
-            this.backButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.backButton.BackColor = System.Drawing.Color.Salmon;
+            this.backButton.ForeColor = System.Drawing.Color.White;
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
@@ -80,7 +81,8 @@
             // newUserButton
             // 
             resources.ApplyResources(this.newUserButton, "newUserButton");
-            this.newUserButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.newUserButton.BackColor = System.Drawing.Color.Salmon;
+            this.newUserButton.ForeColor = System.Drawing.Color.White;
             this.newUserButton.Name = "newUserButton";
             this.newUserButton.UseVisualStyleBackColor = false;
             this.newUserButton.Click += new System.EventHandler(this.newUserButton_Click);
@@ -98,7 +100,8 @@
             // exitButton
             // 
             resources.ApplyResources(this.exitButton, "exitButton");
-            this.exitButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.exitButton.BackColor = System.Drawing.Color.Salmon;
+            this.exitButton.ForeColor = System.Drawing.Color.White;
             this.exitButton.Name = "exitButton";
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
@@ -106,7 +109,8 @@
             // clearButton
             // 
             resources.ApplyResources(this.clearButton, "clearButton");
-            this.clearButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.clearButton.BackColor = System.Drawing.Color.Salmon;
+            this.clearButton.ForeColor = System.Drawing.Color.White;
             this.clearButton.Name = "clearButton";
             this.clearButton.UseVisualStyleBackColor = false;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
@@ -114,7 +118,8 @@
             // loginButton
             // 
             resources.ApplyResources(this.loginButton, "loginButton");
-            this.loginButton.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.loginButton.BackColor = System.Drawing.Color.Salmon;
+            this.loginButton.ForeColor = System.Drawing.Color.White;
             this.loginButton.Name = "loginButton";
             this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);
