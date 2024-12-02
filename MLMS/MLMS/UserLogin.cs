@@ -24,7 +24,7 @@ namespace MLMS
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(AppDomain.CurrentDomain.BaseDirectory);
+            //MessageBox.Show(AppDomain.CurrentDomain.BaseDirectory);
             string username = emailTextBox.Text;
             string password = passwordTextBox.Text;
 
@@ -64,13 +64,13 @@ namespace MLMS
             //string connectionString = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True;Connect Timeout=30;";
             //string connectionString = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=..\\..\\AppData\\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
-            MessageBox.Show("1");
+            //MessageBox.Show("1");
             using (SqlConnection conn = new SqlConnection(connectionString))
             {
-                MessageBox.Show("1.5");
+                //MessageBox.Show("1.5");
                 conn.Open();
                 string query = "SELECT Password,MemberID FROM Member WHERE Email = @Email";
-                MessageBox.Show("2");
+                //MessageBox.Show("2");
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
                     cmd.Parameters.AddWithValue("@Email", username);
