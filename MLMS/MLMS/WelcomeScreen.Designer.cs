@@ -36,8 +36,8 @@
             // 
             // addUserButton
             // 
-            resources.ApplyResources(this.addUserButton, "addUserButton");
             this.addUserButton.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.addUserButton, "addUserButton");
             this.addUserButton.ForeColor = System.Drawing.Color.Black;
             this.addUserButton.Name = "addUserButton";
             this.addUserButton.UseVisualStyleBackColor = false;
@@ -53,11 +53,11 @@
             // 
             // comboBoxLanguage
             // 
-            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.FormattingEnabled = true;
             this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
             resources.GetString("comboBoxLanguage.Items1")});
+            resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
             this.comboBoxLanguage.Name = "comboBoxLanguage";
             this.comboBoxLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguage_SelectedIndexChanged_1);
             // 

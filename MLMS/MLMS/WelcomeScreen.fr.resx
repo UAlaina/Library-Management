@@ -122,10 +122,14 @@
     <value>Microsoft Sans Serif, 22.2pt</value>
   </data>
   <data name="addUserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 496</value>
+    <value>56, 403</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="addUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>8, 7, 8, 7</value>
   </data>
   <data name="addUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 55</value>
+    <value>232, 45</value>
   </data>
   <data name="addUserButton.Text" xml:space="preserve">
     <value>Utilisateur</value>
@@ -133,8 +137,14 @@
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 22.2pt</value>
   </data>
+  <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 403</value>
+  </data>
+  <data name="exitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>163, 55</value>
+    <value>122, 45</value>
   </data>
   <data name="exitButton.Text" xml:space="preserve">
     <value>Sortie</value>
@@ -143,13 +153,19 @@
     <value>Microsoft Sans Serif, 7.8pt</value>
   </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>685, 12</value>
+    <value>514, 10</value>
+  </data>
+  <data name="comboBoxLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>153, 24</value>
+    <value>116, 21</value>
   </data>
   <data name="comboBoxLanguage.Text" xml:space="preserve">
     <value>Choisissez la langue</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1164,12 +1180,11 @@
         xnGqh12oFQAAAABJRU5ErkJggg==
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>872, 617</value>
+    <value>654, 501</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -4259,6 +4274,9 @@
         /VlsffFFzI7sgSKKCHd0InTOG1HYuhWxs9ZgZucO9F1wgbO15+Dg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Bienvenue</value>

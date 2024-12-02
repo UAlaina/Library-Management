@@ -168,7 +168,7 @@ namespace MLMS
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            MainDashbboard B = new MainDashbboard();
+            WelcomeScreen B = new WelcomeScreen();
             B.Show();
             this.Hide();
         }
