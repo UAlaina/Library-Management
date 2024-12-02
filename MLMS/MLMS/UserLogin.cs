@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration.Provider;
 using System.Data;
 using System.Data.SqlClient;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -57,6 +59,10 @@ namespace MLMS
 
             // Get the connection string from the App.config file
             string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
+
+            //string dbPath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "..", "..", "AppData", "Library.mdf");
+            //string connectionString = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={dbPath};Integrated Security=True;Connect Timeout=30;";
+            //string connectionString = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=..\\..\\AppData\\Library.mdf;Integrated Security=True;Connect Timeout=30;";
 
             MessageBox.Show("1");
             using (SqlConnection conn = new SqlConnection(connectionString))
