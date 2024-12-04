@@ -46,7 +46,6 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.reserveBookButton);
             this.groupBox1.Controls.Add(this.statusComboBox);
@@ -57,24 +56,25 @@
             this.groupBox1.Controls.Add(this.searchTextBox);
             this.groupBox1.Controls.Add(this.searchByComboBox);
             this.groupBox1.Controls.Add(this.label1);
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // reserveBookButton
             // 
-            resources.ApplyResources(this.reserveBookButton, "reserveBookButton");
             this.reserveBookButton.ForeColor = System.Drawing.Color.Salmon;
+            resources.ApplyResources(this.reserveBookButton, "reserveBookButton");
             this.reserveBookButton.Name = "reserveBookButton";
             this.reserveBookButton.UseVisualStyleBackColor = true;
             this.reserveBookButton.Click += new System.EventHandler(this.reserveBookButton_Click);
             // 
             // statusComboBox
             // 
-            resources.ApplyResources(this.statusComboBox, "statusComboBox");
             this.statusComboBox.FormattingEnabled = true;
             this.statusComboBox.Items.AddRange(new object[] {
             resources.GetString("statusComboBox.Items"),
             resources.GetString("statusComboBox.Items1")});
+            resources.ApplyResources(this.statusComboBox, "statusComboBox");
             this.statusComboBox.Name = "statusComboBox";
             // 
             // statusLabel
@@ -84,16 +84,16 @@
             // 
             // backButton
             // 
-            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.ForeColor = System.Drawing.Color.Salmon;
+            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = true;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // searchButton
             // 
-            resources.ApplyResources(this.searchButton, "searchButton");
             this.searchButton.ForeColor = System.Drawing.Color.Salmon;
+            resources.ApplyResources(this.searchButton, "searchButton");
             this.searchButton.Name = "searchButton";
             this.searchButton.UseVisualStyleBackColor = true;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
@@ -110,13 +110,13 @@
             // 
             // searchByComboBox
             // 
-            resources.ApplyResources(this.searchByComboBox, "searchByComboBox");
             this.searchByComboBox.FormattingEnabled = true;
             this.searchByComboBox.Items.AddRange(new object[] {
             resources.GetString("searchByComboBox.Items"),
             resources.GetString("searchByComboBox.Items1"),
             resources.GetString("searchByComboBox.Items2"),
             resources.GetString("searchByComboBox.Items3")});
+            resources.ApplyResources(this.searchByComboBox, "searchByComboBox");
             this.searchByComboBox.Name = "searchByComboBox";
             // 
             // label1
@@ -126,10 +126,10 @@
             // 
             // dataGridViewBooks
             // 
-            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
             this.dataGridViewBooks.AllowUserToAddRows = false;
             this.dataGridViewBooks.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridViewBooks.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dataGridViewBooks, "dataGridViewBooks");
             this.dataGridViewBooks.Name = "dataGridViewBooks";
             this.dataGridViewBooks.ReadOnly = true;
             this.dataGridViewBooks.RowTemplate.Height = 24;

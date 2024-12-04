@@ -140,6 +140,9 @@
   <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
+  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
@@ -151,6 +154,9 @@
   </data>
   <data name="&gt;&gt;phoneNoTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;phoneNoTextBox.ZOrder" xml:space="preserve">
+    <value>6</value>
   </data>
   <data name="&gt;&gt;nameLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -167,10 +173,10 @@
   <data name="&gt;&gt;passwordTextBox.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="emailLabel.Text" xml:space="preserve">
+    <value>E-mail address</value>
   </data>
-  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+  <data name="&gt;&gt;nameTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
@@ -181,9 +187,6 @@
   </data>
   <data name="addButton.Text" xml:space="preserve">
     <value>Add member</value>
-  </data>
-  <data name="&gt;&gt;PhoneNoLabel.Parent" xml:space="preserve">
-    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;nameTextBox.Name" xml:space="preserve">
     <value>nameTextBox</value>
@@ -198,8 +201,8 @@
   <data name="addressLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="backButton.Text" xml:space="preserve">
-    <value>Back</value>
+  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>320, 424</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>addMemberForm</value>
@@ -255,6 +258,9 @@
   <data name="&gt;&gt;addressLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="phoneNoTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 22</value>
+  </data>
   <data name="&gt;&gt;dobLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -294,7 +300,10 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;addressLabel.Parent" xml:space="preserve">
+  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;addressRichTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
@@ -315,14 +324,11 @@
   <data name="&gt;&gt;emailTextBox.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;addressRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
   <data name="passwordLabel.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
-  </data>
-  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
   </data>
   <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>34, 316</value>
@@ -333,11 +339,11 @@
   <data name="passwordTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
-  <data name="emailLabel.Text" xml:space="preserve">
-    <value>E-mail address</value>
+  <data name="backButton.Text" xml:space="preserve">
+    <value>Back</value>
   </data>
-  <data name="&gt;&gt;nameLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="DOBDateTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="DOBDateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
@@ -3500,8 +3506,8 @@
   <data name="nameTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>169, 70</value>
   </data>
-  <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;addressLabel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="passwordTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -3518,11 +3524,11 @@
   <data name="PhoneNoLabel.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
   </data>
-  <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>320, 424</value>
-  </data>
   <data name="&gt;&gt;addButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
+  </data>
+  <data name="PhoneNoLabel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 16</value>
   </data>
   <data name="dobLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3575,8 +3581,8 @@
   <data name="&gt;&gt;addressRichTextBox.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  <data name="nameLabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;passwordLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -3587,17 +3593,11 @@
   <data name="addressRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>171, 116</value>
   </data>
-  <data name="DOBDateTimePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
   <data name="dobLabel.Text" xml:space="preserve">
     <value>DOB</value>
   </data>
-  <data name="&gt;&gt;addressRichTextBox.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="phoneNoTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>265, 22</value>
+  <data name="&gt;&gt;backButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
@@ -3626,8 +3626,8 @@
   <data name="nameLabel.Text" xml:space="preserve">
     <value>Full name</value>
   </data>
-  <data name="PhoneNoLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 16</value>
+  <data name="&gt;&gt;addressRichTextBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;emailTextBox.Name" xml:space="preserve">
     <value>emailTextBox</value>
@@ -3635,16 +3635,13 @@
   <data name="nameTextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
-  <data name="&gt;&gt;phoneNoTextBox.ZOrder" xml:space="preserve">
-    <value>6</value>
+  <data name="&gt;&gt;PhoneNoLabel.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr</value>
   </metadata>
 </root>

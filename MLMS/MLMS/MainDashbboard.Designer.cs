@@ -39,14 +39,16 @@
             this.suggestionLlabel = new System.Windows.Forms.Label();
             this.contactLabel = new System.Windows.Forms.Label();
             this.emailLabel = new System.Windows.Forms.Label();
+            this.exitButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.Color.Bisque;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.Controls.Add(this.exitButton);
             this.groupBox1.Controls.Add(this.paymentButton);
             this.groupBox1.Controls.Add(this.reserveButton);
             this.groupBox1.Controls.Add(this.addButton);
@@ -57,8 +59,8 @@
             // 
             // paymentButton
             // 
-            resources.ApplyResources(this.paymentButton, "paymentButton");
             this.paymentButton.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.paymentButton, "paymentButton");
             this.paymentButton.ForeColor = System.Drawing.Color.Salmon;
             this.paymentButton.Name = "paymentButton";
             this.paymentButton.UseVisualStyleBackColor = false;
@@ -66,8 +68,8 @@
             // 
             // reserveButton
             // 
-            resources.ApplyResources(this.reserveButton, "reserveButton");
             this.reserveButton.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.reserveButton, "reserveButton");
             this.reserveButton.ForeColor = System.Drawing.Color.Salmon;
             this.reserveButton.Name = "reserveButton";
             this.reserveButton.UseVisualStyleBackColor = false;
@@ -75,8 +77,8 @@
             // 
             // addButton
             // 
-            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.addButton, "addButton");
             this.addButton.ForeColor = System.Drawing.Color.Salmon;
             this.addButton.Name = "addButton";
             this.addButton.UseVisualStyleBackColor = false;
@@ -84,8 +86,8 @@
             // 
             // memberButton
             // 
-            resources.ApplyResources(this.memberButton, "memberButton");
             this.memberButton.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.memberButton, "memberButton");
             this.memberButton.ForeColor = System.Drawing.Color.Salmon;
             this.memberButton.Name = "memberButton";
             this.memberButton.UseVisualStyleBackColor = false;
@@ -93,21 +95,21 @@
             // 
             // groupBox2
             // 
-            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.BackColor = System.Drawing.Color.Peru;
             this.groupBox2.Controls.Add(this.inputsuggestionRichTextBox);
             this.groupBox2.Controls.Add(this.suggestionLlabel);
             this.groupBox2.Controls.Add(this.contactLabel);
             this.groupBox2.Controls.Add(this.emailLabel);
+            resources.ApplyResources(this.groupBox2, "groupBox2");
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.TabStop = false;
             this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // inputsuggestionRichTextBox
             // 
-            resources.ApplyResources(this.inputsuggestionRichTextBox, "inputsuggestionRichTextBox");
             this.inputsuggestionRichTextBox.BackColor = System.Drawing.SystemColors.HighlightText;
             this.inputsuggestionRichTextBox.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
+            resources.ApplyResources(this.inputsuggestionRichTextBox, "inputsuggestionRichTextBox");
             this.inputsuggestionRichTextBox.Name = "inputsuggestionRichTextBox";
             // 
             // suggestionLlabel
@@ -124,6 +126,15 @@
             // 
             resources.ApplyResources(this.emailLabel, "emailLabel");
             this.emailLabel.Name = "emailLabel";
+            // 
+            // exitButton
+            // 
+            this.exitButton.BackColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.exitButton, "exitButton");
+            this.exitButton.ForeColor = System.Drawing.Color.Salmon;
+            this.exitButton.Name = "exitButton";
+            this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // MainDashbboard
             // 
@@ -152,5 +163,6 @@
         private System.Windows.Forms.Label suggestionLlabel;
         private System.Windows.Forms.Label contactLabel;
         private System.Windows.Forms.Label emailLabel;
+        private System.Windows.Forms.Button exitButton;
     }
 }

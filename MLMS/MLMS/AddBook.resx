@@ -165,8 +165,8 @@
   <data name="&gt;&gt;availabilityComboBox.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="groupBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="bookTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -183,9 +183,6 @@
   <data name="ISBNtextBox.Size" type="System.Drawing.Size, System.Drawing">
     <value>265, 22</value>
   </data>
-  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
   <data name="&gt;&gt;bookLabel.Name" xml:space="preserve">
     <value>bookLabel</value>
   </data>
@@ -201,11 +198,17 @@
   <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>123, 44</value>
   </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
   <data name="&gt;&gt;label6.Name" xml:space="preserve">
     <value>label6</value>
   </data>
   <data name="descriptionRichTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
+  </data>
+  <data name="&gt;&gt;descriptionRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="addButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>217, 553</value>
@@ -228,17 +231,17 @@
   <data name="ISBNtextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 117</value>
   </data>
-  <data name="&gt;&gt;bookLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="availabailityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Edition</value>
   </data>
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
   </data>
   <data name="availabailityLabel.TabIndex" type="System.Int32, mscorlib">
     <value>19</value>
-  </data>
-  <data name="groupBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
-    <value>Zoom</value>
   </data>
   <data name="ISBNLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -282,9 +285,6 @@
   <data name="label3.Text" xml:space="preserve">
     <value>Author</value>
   </data>
-  <data name="&gt;&gt;ISBNLabel.Name" xml:space="preserve">
-    <value>ISBNLabel</value>
-  </data>
   <data name="availabailityLabel.Location" type="System.Drawing.Point, System.Drawing">
     <value>49, 499</value>
   </data>
@@ -317,6 +317,9 @@
   </data>
   <data name="editionTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Add Book Details</value>
@@ -369,14 +372,17 @@
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>12</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+  <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="label4.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="bookTextBox.Location" type="System.Drawing.Point, System.Drawing">
     <value>229, 59</value>
+  </data>
+  <data name="backButton.Text" xml:space="preserve">
+    <value>Back</value>
   </data>
   <data name="&gt;&gt;bookTextBox.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -410,6 +416,9 @@
   </data>
   <data name="label6.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
+  </data>
+  <data name="ISBNLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="bookLabel.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -3554,9 +3563,6 @@
   <data name="&gt;&gt;backButton.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="bookLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
   <data name="&gt;&gt;authorTextBox.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
@@ -3583,9 +3589,6 @@
   </data>
   <data name="ISBNLabel.Text" xml:space="preserve">
     <value>ISBN No:</value>
-  </data>
-  <data name="bookLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 59</value>
   </data>
   <data name="&gt;&gt;availabailityLabel.Parent" xml:space="preserve">
     <value>groupBox1</value>
@@ -3662,8 +3665,8 @@
   <data name="label4.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <data name="&gt;&gt;descriptionRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="bookLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -3673,9 +3676,6 @@
   </data>
   <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 11.25pt</value>
-  </data>
-  <data name="label5.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -3695,17 +3695,17 @@
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="ISBNLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt</value>
+  <data name="bookLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>49, 59</value>
   </data>
   <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
     <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="label5.Text" xml:space="preserve">
-    <value>Edition</value>
+  <data name="label6.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
-  <data name="availabailityLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+  <data name="label5.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
   </data>
   <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -3737,10 +3737,10 @@
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="backButton.Text" xml:space="preserve">
-    <value>Back</value>
+  <data name="&gt;&gt;ISBNLabel.Name" xml:space="preserve">
+    <value>ISBNLabel</value>
   </data>
-  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+  <data name="&gt;&gt;bookLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="ISBNtextBox.TabIndex" type="System.Int32, mscorlib">
@@ -3751,8 +3751,5 @@
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
-  </metadata>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr</value>
   </metadata>
 </root>
