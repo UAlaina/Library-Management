@@ -12,6 +12,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MLMS.addMemberForm;
 
 namespace MLMS
 {
@@ -161,7 +162,7 @@ namespace MLMS
 
         private void newUserButton_Click(object sender, EventArgs e)
         {
-            addMemberForm newUserForm = new addMemberForm();
+            addMemberForm newUserForm = new addMemberForm(FormType.UserLogin);
             newUserForm.Show();
             this.Hide();
         }

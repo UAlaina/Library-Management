@@ -199,7 +199,24 @@
     <Compile Include="AddMember.Designer.cs">
       <DependentUpon>AddMember.cs</DependentUpon>
     </Compile>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AdminMainDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminMainDashBoard.Designer.cs">
+      <DependentUpon>AdminMainDashBoard.cs</DependentUpon>
+    </Compile>
     <Compile Include="ChangeLanguage.cs" />
+    <Compile Include="LibraryDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="MainDashbboard.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -228,6 +245,12 @@
       <DependentUpon>UserLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="UserSession.cs" />
+    <Compile Include="ViewReserve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewReserve.Designer.cs">
+      <DependentUpon>ViewReserve.cs</DependentUpon>
+    </Compile>
     <Compile Include="WelcomeScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -248,6 +271,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="AddMember.resx">
       <DependentUpon>AddMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.fr.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMainDashBoard.fr.resx">
+      <DependentUpon>AdminMainDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AdminMainDashBoard.resx">
+      <DependentUpon>AdminMainDashBoard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainDashbboard.fr.resx">
       <DependentUpon>MainDashbboard.cs</DependentUpon>
@@ -282,12 +317,26 @@
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ViewReserve.resx">
+      <DependentUpon>ViewReserve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.fr.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="WelcomeScreen.resx">
       <DependentUpon>WelcomeScreen.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="LibraryDataSet.xsc">
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="LibraryDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>LibraryDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="LibraryDataSet.xss">
+      <DependentUpon>LibraryDataSet.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

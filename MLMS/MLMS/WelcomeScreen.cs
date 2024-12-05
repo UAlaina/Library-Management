@@ -68,5 +68,12 @@ namespace MLMS2
         {
 
         }
+
+        private void adminButton_Click(object sender, EventArgs e)
+        {
+            AdminLogin M = new AdminLogin();
+            M.Show();
+            this.Hide();
+        }
     }
 }

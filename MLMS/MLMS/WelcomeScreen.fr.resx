@@ -122,16 +122,19 @@
     <value>Microsoft Sans Serif, 22.2pt</value>
   </data>
   <data name="addUserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 496</value>
+    <value>47, 496</value>
   </data>
   <data name="addUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>309, 55</value>
+    <value>203, 55</value>
   </data>
   <data name="addUserButton.Text" xml:space="preserve">
     <value>Utilisateur</value>
   </data>
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 22.2pt</value>
+  </data>
+  <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>661, 496</value>
   </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>163, 55</value>
@@ -150,6 +153,29 @@
   </data>
   <data name="comboBoxLanguage.Text" xml:space="preserve">
     <value>Choisissez la langue</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 22.2pt</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>324, 496</value>
+  </data>
+  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>275, 55</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Administrateur</value>
   </data>
   <data name="$this.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1144,7 +1170,6 @@
         AACg8iBsAAAAAACg8iBsAAAAAACg8iBsAAAAAACg8vx/acZxqunp154AAAAASUVORK5CYII=
 </value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
   </data>

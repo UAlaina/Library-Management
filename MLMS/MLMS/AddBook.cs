@@ -31,8 +31,8 @@ namespace MLMS
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            MainDashbboard M = new MainDashbboard();
-            M.Show();
+            AdminMainDashBoard A = new AdminMainDashBoard();
+            A.Show();
             this.Hide();
         }
 
@@ -106,6 +106,7 @@ namespace MLMS
                     if (result > 0)
                     {
                         MessageBox.Show("Book added successfully!");
+                        ClearForm();
                     }
                     else
                     {

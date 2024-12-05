@@ -15,25 +15,44 @@ namespace MLMS
 {
     public partial class addMemberForm : Form
     {
-        //roy path
-        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
-        //alaina path
-        //string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\santh\source\repos\MLMS\MLMS\App_Data\Library.mdf;Integrated Security=True;Connect Timeout=30;";
-
-        //we can just use this and change the path in the app.config so itll be easy to change.
         string connectionString = ConfigurationManager.ConnectionStrings["LibraryDb"].ConnectionString;
 
+        public enum FormType
+        {
+            AdminMainDashBoard,
+            MainDashBoard,
+            UserLogin
+        }
 
-        public addMemberForm()
+        private FormType currentForm;
+
+
+        public addMemberForm(FormType formType)
         {
             InitializeComponent();
+            currentForm = formType;
         }
 
         private void backButton_Click(object sender, EventArgs e)
         {
-            UserLogin loginForm = new UserLogin();
-            loginForm.Show();
-            this.Hide();
+            // Based on the current form, show the correct form
+            if (currentForm == FormType.AdminMainDashBoard)
+            {
+                AdminMainDashBoard adminDash = new AdminMainDashBoard();
+                adminDash.Show();
+            }
+            else if (currentForm == FormType.MainDashBoard)
+            {
+                MainDashbboard mainDash = new MainDashbboard();
+                mainDash.Show();
+            }
+            else if (currentForm == FormType.UserLogin)
+            {
+                UserLogin loginForm = new UserLogin();
+                loginForm.Show();
+            }
+
+            this.Hide(); // Hide current form
         }
 
         private void addButton_Click(object sender, EventArgs e)

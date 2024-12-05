@@ -118,6 +118,18 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
+    <value>709, 6</value>
+  </data>
+  <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
+    <value>74, 24</value>
+  </data>
+  <data name="comboBoxLanguage.Text" xml:space="preserve">
+    <value>langue</value>
+  </data>
+  <data name="exitButton.Text" xml:space="preserve">
+    <value>Sortie</value>
+  </data>
   <data name="paymentButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Modern No. 20, 12pt, style=Bold</value>
   </data>
@@ -129,12 +141,6 @@
   </data>
   <data name="reserveButton.Text" xml:space="preserve">
     <value>Réserver un livre</value>
-  </data>
-  <data name="addButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 13.7999992pt, style=Bold</value>
-  </data>
-  <data name="addButton.Text" xml:space="preserve">
-    <value>Ajouter un livre</value>
   </data>
   <data name="memberButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Modern No. 20, 12pt, style=Bold</value>

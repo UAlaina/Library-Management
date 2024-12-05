@@ -703,3 +703,8 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\App_Data\pt-BR\Micr
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\App_Data\ru\Microsoft.Data.SqlClient.resources.dll
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\App_Data\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\App_Data\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminLogin.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminMainDashBoard.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminLogin.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminMainDashBoard.fr.resources
+C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.ViewReserve.resources

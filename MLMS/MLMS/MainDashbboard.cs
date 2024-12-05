@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static MLMS.addMemberForm;
 
 namespace MLMS2
 {
@@ -20,7 +21,7 @@ namespace MLMS2
 
         private void memberButton_Click(object sender, EventArgs e)
         {
-            addMemberForm member = new addMemberForm();
+            addMemberForm member = new addMemberForm(FormType.MainDashBoard);
             member.Show();
             this.Hide();
         }
@@ -32,13 +33,6 @@ namespace MLMS2
             this.Hide();
         }
 
-        private void addButton_Click(object sender, EventArgs e)
-        {
-            AddBook D = new AddBook();
-            D.Show();
-            this.Hide();
-        }
-
         private void paymentButton_Click(object sender, EventArgs e)
         {
             Payment P = new Payment();
@@ -46,14 +40,26 @@ namespace MLMS2
             this.Hide();
         }
 
-        private void groupBox2_Enter(object sender, EventArgs e)
-        {
-
-        }
-
         private void exitButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void comboBoxLanguage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Get the selected language from the ComboBox
+            string selectedLanguage = comboBoxLanguage.SelectedItem.ToString();
+
+            // Map language to culture codes
+            string cultureCode = selectedLanguage == "French" ? "fr" : "en";
+
+            // Set the culture for the current thread
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(cultureCode);
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(cultureCode);
+
+            // Reload the form to apply the language
+            this.Controls.Clear();
+            InitializeComponent();
         }
     }
 }

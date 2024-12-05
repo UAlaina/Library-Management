@@ -37,57 +37,76 @@ namespace MLMS2
             {
                 string searchBy = searchByComboBox.SelectedItem?.ToString();
                 string searchQuery = searchTextBox.Text.Trim();
-                List<string> conditions = new List<string>();
+                //List<string> conditions = new List<string>();
 
-                // Build search conditions based on user input
-                if (!string.IsNullOrWhiteSpace(searchQuery))
+                //MessageBox.Show($"Inside searchButton_Click, searchBy: '{searchBy}'");
+
+                // Validate input
+                if (string.IsNullOrWhiteSpace(searchQuery) || string.IsNullOrWhiteSpace(searchBy))
                 {
-                    switch (searchBy)
-                    {
-                        case "By Book Name":
-                            conditions.Add("Title LIKE '%' + @SearchQuery + '%'");
-                            break;
-                        case "By Author":
-                            conditions.Add("Author LIKE '%' + @SearchQuery + '%'");
-                            break;
-                        case "By ISBN":
-                            conditions.Add("ISBN = @SearchQuery");
-                            break;
-                        case "By Published Date":
-                            conditions.Add("PublishedDate = @SearchQuery");
-                            break;
-                    }
+                    MessageBox.Show("Please select a search filter and enter a search term.", "Validation Error", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
                 }
 
-                // Construct the query to fetch book data
-                string query = $@"
-            SELECT 
-                BookID, 
-                Title, 
-                ISBN,
-                Author,
-                YearPublished, 
-                Edition,
-                Description,
-                Availability,
-                DueDate
-            FROM Book
-            WHERE {(conditions.Count > 0 ? string.Join(" AND ", conditions) : "1=1")}";
+                string query = string.Empty;
+
+                // Construct query based on the selected search filter
+                switch (searchBy)
+                {
+                    case "By book name":
+                        query = @"
+                    SELECT BookID, Title, ISBN, Author, YearPublished, Edition, Description, Availability, DueDate
+                    FROM Book
+                    WHERE Title LIKE '%' + @SearchQuery + '%'";
+                        break;
+
+                    case "By author":
+                        query = @"
+                    SELECT BookID, Title, ISBN, Author, YearPublished, Edition, Description, Availability, DueDate
+                    FROM Book
+                    WHERE Author LIKE '%' + @SearchQuery + '%'";
+                        break;
+
+                    case "By ISBN":
+                        query = @"
+                    SELECT BookID, Title, ISBN, Author, YearPublished, Edition, Description, Availability, DueDate
+                    FROM Book
+                    WHERE ISBN = @SearchQuery";
+                        break;
+
+                    case "By published date":
+                        query = @"
+                    SELECT BookID, Title, ISBN, Author, YearPublished, Edition, Description, Availability, DueDate
+                    FROM Book
+                    WHERE CONVERT(VARCHAR, YearPublished, 23) = @SearchQuery"; // Use a string format to match date input
+                        break;
+
+                    default:
+                        MessageBox.Show("Invalid search filter selected.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        return;
+                }
 
                 using (SqlConnection conn = new SqlConnection(connectionString))
                 using (SqlCommand cmd = new SqlCommand(query, conn))
                 {
-                    // Add search query parameter
-                    if (!string.IsNullOrWhiteSpace(searchQuery))
-                        cmd.Parameters.AddWithValue("@SearchQuery", searchQuery);
+                    // Add the search query as a parameter
+                    cmd.Parameters.AddWithValue("@SearchQuery", searchQuery);
 
                     conn.Open();
                     SqlDataAdapter adapter = new SqlDataAdapter(cmd);
                     DataTable dt = new DataTable();
                     adapter.Fill(dt);
 
-                    // Bind the data to the DataGridView
-                    dataGridViewBooks.DataSource = dt;
+                    // Check if results are found
+                    if (dt.Rows.Count > 0)
+                    {
+                        dataGridViewBooks.DataSource = dt; // Bind the data to the DataGridView
+                    }
+                    else
+                    {
+                        MessageBox.Show("No records found matching your search criteria.", "No Results", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        dataGridViewBooks.DataSource = null; // Clear the DataGridView
+                    }
                 }
             }
             catch (Exception ex)

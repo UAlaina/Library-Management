@@ -32,6 +32,7 @@
             this.addUserButton = new System.Windows.Forms.Button();
             this.exitButton = new System.Windows.Forms.Button();
             this.comboBoxLanguage = new System.Windows.Forms.ComboBox();
+            this.adminButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // addUserButton
@@ -61,10 +62,19 @@
             this.comboBoxLanguage.Name = "comboBoxLanguage";
             this.comboBoxLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguage_SelectedIndexChanged_1);
             // 
+            // adminButton
+            // 
+            resources.ApplyResources(this.adminButton, "adminButton");
+            this.adminButton.ForeColor = System.Drawing.Color.Black;
+            this.adminButton.Name = "adminButton";
+            this.adminButton.UseVisualStyleBackColor = true;
+            this.adminButton.Click += new System.EventHandler(this.adminButton_Click);
+            // 
             // WelcomeScreen
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.adminButton);
             this.Controls.Add(this.comboBoxLanguage);
             this.Controls.Add(this.exitButton);
             this.Controls.Add(this.addUserButton);
@@ -80,5 +90,6 @@
         private System.Windows.Forms.Button addUserButton;
         private System.Windows.Forms.Button exitButton;
         private System.Windows.Forms.ComboBox comboBoxLanguage;
+        private System.Windows.Forms.Button adminButton;
     }
 }

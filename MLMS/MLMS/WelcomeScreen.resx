@@ -122,21 +122,21 @@
     <value>Microsoft Sans Serif, 21.75pt</value>
   </data>
   <data name="addUserButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>75, 495</value>
+    <value>83, 496</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="addUserButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>11, 9, 11, 9</value>
   </data>
   <data name="addUserButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>308, 57</value>
+    <value>156, 57</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="addUserButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
   <data name="addUserButton.Text" xml:space="preserve">
-    <value>Access to User Login</value>
+    <value>User</value>
   </data>
   <data name="&gt;&gt;addUserButton.Name" xml:space="preserve">
     <value>addUserButton</value>
@@ -148,7 +148,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;addUserButton.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Arial, 21.75pt</value>
@@ -178,7 +178,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;exitButton.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="comboBoxLanguage.Items" xml:space="preserve">
     <value>English</value>
@@ -187,13 +187,13 @@
     <value>French</value>
   </data>
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>717, 12</value>
+    <value>677, 12</value>
   </data>
   <data name="comboBoxLanguage.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>121, 24</value>
+    <value>161, 24</value>
   </data>
   <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -211,11 +211,41 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;comboBoxLanguage.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="adminButton.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Arial, 21.75pt</value>
+  </data>
+  <data name="adminButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="adminButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 496</value>
+  </data>
+  <data name="adminButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 2, 3, 2</value>
+  </data>
+  <data name="adminButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>163, 57</value>
+  </data>
+  <data name="adminButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="adminButton.Text" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="&gt;&gt;adminButton.Name" xml:space="preserve">
+    <value>adminButton</value>
+  </data>
+  <data name="&gt;&gt;adminButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;adminButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;adminButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>fr</value>
-  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
