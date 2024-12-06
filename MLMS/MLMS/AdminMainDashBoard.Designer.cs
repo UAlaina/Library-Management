@@ -40,8 +40,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.Color.Bisque;
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.BackColor = System.Drawing.Color.Bisque;
             this.groupBox1.Controls.Add(this.memberButton);
             this.groupBox1.Controls.Add(this.comboBoxLanguage);
             this.groupBox1.Controls.Add(this.exitButton);
@@ -53,8 +53,8 @@
             // 
             // memberButton
             // 
-            this.memberButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.memberButton, "memberButton");
+            this.memberButton.BackColor = System.Drawing.Color.Salmon;
             this.memberButton.ForeColor = System.Drawing.Color.White;
             this.memberButton.Name = "memberButton";
             this.memberButton.UseVisualStyleBackColor = false;
@@ -62,27 +62,29 @@
             // 
             // comboBoxLanguage
             // 
-            this.comboBoxLanguage.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
+            this.comboBoxLanguage.BackColor = System.Drawing.Color.Salmon;
             this.comboBoxLanguage.ForeColor = System.Drawing.Color.White;
             this.comboBoxLanguage.FormattingEnabled = true;
             this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
             resources.GetString("comboBoxLanguage.Items1")});
             this.comboBoxLanguage.Name = "comboBoxLanguage";
+            this.comboBoxLanguage.SelectedIndexChanged += new System.EventHandler(this.comboBoxLanguage_SelectedIndexChanged);
             // 
             // exitButton
             // 
-            this.exitButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.exitButton, "exitButton");
+            this.exitButton.BackColor = System.Drawing.Color.Salmon;
             this.exitButton.ForeColor = System.Drawing.Color.White;
             this.exitButton.Name = "exitButton";
             this.exitButton.UseVisualStyleBackColor = false;
+            this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // reserveButton
             // 
-            this.reserveButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.reserveButton, "reserveButton");
+            this.reserveButton.BackColor = System.Drawing.Color.Salmon;
             this.reserveButton.ForeColor = System.Drawing.Color.White;
             this.reserveButton.Name = "reserveButton";
             this.reserveButton.UseVisualStyleBackColor = false;
@@ -90,8 +92,8 @@
             // 
             // addButton
             // 
-            this.addButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.addButton, "addButton");
+            this.addButton.BackColor = System.Drawing.Color.Salmon;
             this.addButton.ForeColor = System.Drawing.Color.White;
             this.addButton.Name = "addButton";
             this.addButton.UseVisualStyleBackColor = false;

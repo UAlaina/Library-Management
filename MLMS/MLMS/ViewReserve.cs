@@ -97,5 +97,12 @@ namespace MLMS
         {
 
         }
+
+        private void backButton_Click(object sender, EventArgs e)
+        {
+            AdminMainDashBoard A = new AdminMainDashBoard();
+            A.Show();
+            this.Hide();
+        }
     }
 }

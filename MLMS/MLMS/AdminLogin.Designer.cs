@@ -69,9 +69,9 @@
             // 
             // loginAdminButton
             // 
-            resources.ApplyResources(this.loginAdminButton, "loginAdminButton");
             this.loginAdminButton.BackColor = System.Drawing.Color.Salmon;
             this.loginAdminButton.ForeColor = System.Drawing.Color.White;
+            resources.ApplyResources(this.loginAdminButton, "loginAdminButton");
             this.loginAdminButton.Name = "loginAdminButton";
             this.loginAdminButton.UseVisualStyleBackColor = false;
             this.loginAdminButton.Click += new System.EventHandler(this.loginAdminButton_Click);

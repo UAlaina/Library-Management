@@ -317,6 +317,9 @@
     <EmbeddedResource Include="UserLogin.resx">
       <DependentUpon>UserLogin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ViewReserve.fr.resx">
+      <DependentUpon>ViewReserve.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ViewReserve.resx">
       <DependentUpon>ViewReserve.cs</DependentUpon>
     </EmbeddedResource>

@@ -38,5 +38,25 @@ namespace MLMS
             VR.Show();
             this.Hide();
         }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void comboBoxLanguage_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            // Get the selected language from the ComboBox
+            string selectedLanguage = comboBoxLanguage.SelectedItem.ToString();
+
+            // Map language to culture codes
+            string cultureCode = selectedLanguage == "French" ? "fr-FR" : "en-US";
+
+            // Update the application language
+            ChangeLanguage.UpdateLanguage(cultureCode);
+
+            // Optional: Inform the user that the language has been changed
+            MessageBox.Show("Language changed to " + selectedLanguage + ". Please restart the application to apply changes.", "Language Switch");
+    }
     }
 }
