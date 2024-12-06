@@ -119,76 +119,155 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="comboBoxLanguage.Location" type="System.Drawing.Point, System.Drawing">
-    <value>709, 6</value>
+    <value>798, 8</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
-    <value>74, 24</value>
+    <value>83, 28</value>
   </data>
   <data name="comboBoxLanguage.Text" xml:space="preserve">
     <value>langue</value>
+  </data>
+  <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>889, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="exitButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 41</value>
   </data>
   <data name="exitButton.Text" xml:space="preserve">
     <value>Sortie</value>
   </data>
   <data name="paymentButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="paymentButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 215</value>
+  </data>
+  <data name="paymentButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="paymentButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 81</value>
   </data>
   <data name="paymentButton.Text" xml:space="preserve">
     <value>Effectuer le paiement</value>
   </data>
   <data name="reserveButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 13.7999992pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 13.7999992pt, style=Bold</value>
+  </data>
+  <data name="reserveButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 45</value>
+  </data>
+  <data name="reserveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="reserveButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 74</value>
   </data>
   <data name="reserveButton.Text" xml:space="preserve">
     <value>Réserver un livre</value>
   </data>
   <data name="memberButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="memberButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>27, 129</value>
+  </data>
+  <data name="memberButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="memberButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>896, 76</value>
   </data>
   <data name="memberButton.Text" xml:space="preserve">
     <value>Ajouter un membre</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 16</value>
+  </data>
+  <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 306</value>
   </data>
   <data name="groupBox1.Text" xml:space="preserve">
     <value>Détails du livre</value>
   </data>
   <data name="inputsuggestionRichTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>570, 52</value>
+    <value>641, 65</value>
+  </data>
+  <data name="inputsuggestionRichTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="inputsuggestionRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>363, 102</value>
   </data>
   <data name="suggestionLlabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 13.7999992pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 13.7999992pt, style=Bold</value>
   </data>
   <data name="suggestionLlabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>566, 22</value>
+    <value>637, 28</value>
   </data>
   <data name="suggestionLlabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>181, 25</value>
+    <value>256, 32</value>
   </data>
   <data name="suggestionLlabel.Text" xml:space="preserve">
     <value>Des suggestions :</value>
   </data>
   <data name="contactLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 13.7999992pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 13.7999992pt, style=Bold</value>
+  </data>
+  <data name="contactLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 119</value>
   </data>
   <data name="contactLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>218, 25</value>
+    <value>314, 32</value>
   </data>
   <data name="contactLabel.Text" xml:space="preserve">
     <value>Contact : 0111223344</value>
   </data>
   <data name="emailLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 12pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 12pt, style=Bold</value>
+  </data>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 61</value>
   </data>
   <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>405, 22</value>
+    <value>552, 29</value>
   </data>
   <data name="emailLabel.Text" xml:space="preserve">
     <value>Demandes de renseignements : abc@dodo.au</value>
   </data>
   <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Modern No. 20, 10.1999989pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 10.1999989pt, style=Bold</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 332</value>
+  </data>
+  <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 5, 4, 5</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1014, 178</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
     <value>Des doutes ?</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>9, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1062, 534</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3278,6 +3357,9 @@
         /VlsffFFzI7sgSKKCHd0InTOG1HYuhWxs9ZgZucO9F1wgbO15+Dg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
+  </data>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Tableau de bord principal</value>

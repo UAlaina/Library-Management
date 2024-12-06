@@ -70,8 +70,10 @@
             // loginAdminButton
             // 
             resources.ApplyResources(this.loginAdminButton, "loginAdminButton");
+            this.loginAdminButton.BackColor = System.Drawing.Color.Salmon;
+            this.loginAdminButton.ForeColor = System.Drawing.Color.White;
             this.loginAdminButton.Name = "loginAdminButton";
-            this.loginAdminButton.UseVisualStyleBackColor = true;
+            this.loginAdminButton.UseVisualStyleBackColor = false;
             this.loginAdminButton.Click += new System.EventHandler(this.loginAdminButton_Click);
             // 
             // helpLabel
@@ -83,6 +85,7 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Bisque;
             this.Controls.Add(this.helpLabel);
             this.Controls.Add(this.loginAdminButton);
             this.Controls.Add(this.passwordTextBox);

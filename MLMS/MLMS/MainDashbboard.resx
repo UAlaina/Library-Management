@@ -162,8 +162,8 @@
   <data name="comboBoxLanguage.Items1" xml:space="preserve">
     <value>French</value>
   </data>
-  <data name="inputsuggestionRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>323, 82</value>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
   </data>
   <data name="exitButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>103, 33</value>
@@ -177,20 +177,14 @@
   <data name="&gt;&gt;suggestionLlabel.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="suggestionLlabel.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="comboBoxLanguage.Items" xml:space="preserve">
+    <value>English</value>
   </data>
   <data name="exitButton.Location" type="System.Drawing.Point, System.Drawing">
     <value>790, 0</value>
   </data>
   <data name="suggestionLlabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 23</value>
-  </data>
-  <data name="exitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
-    <value>$this</value>
   </data>
   <data name="reserveButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -237,6 +231,9 @@
   <data name="&gt;&gt;paymentButton.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
+  <data name="&gt;&gt;reserveButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
   <data name="&gt;&gt;comboBoxLanguage.Name" xml:space="preserve">
     <value>comboBoxLanguage</value>
   </data>
@@ -249,14 +246,14 @@
   <data name="paymentButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
   </data>
-  <data name="exitButton.Text" xml:space="preserve">
-    <value>Exit</value>
+  <data name="&gt;&gt;contactLabel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="contactLabel.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+  <data name="&gt;&gt;comboBoxLanguage.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;reserveButton.Name" xml:space="preserve">
-    <value>reserveButton</value>
+  <data name="contactLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 0, 4, 0</value>
   </data>
   <data name="&gt;&gt;inputsuggestionRichTextBox.Type" xml:space="preserve">
     <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -270,23 +267,23 @@
   <data name="&gt;&gt;exitButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="memberButton.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
   <data name="&gt;&gt;memberButton.Name" xml:space="preserve">
     <value>memberButton</value>
   </data>
-  <data name="&gt;&gt;comboBoxLanguage.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="suggestionLlabel.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;reserveButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
-  </data>
-  <data name="emailLabel.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Verdana, 11.25pt, style=Bold</value>
   </data>
   <data name="&gt;&gt;exitButton.Name" xml:space="preserve">
     <value>exitButton</value>
   </data>
   <data name="reserveButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Elephant, 11.25pt</value>
+    <value>Microsoft Sans Serif, 11.25pt</value>
   </data>
   <data name="paymentButton.Size" type="System.Drawing.Size, System.Drawing">
     <value>796, 65</value>
@@ -294,8 +291,8 @@
   <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;inputsuggestionRichTextBox.Parent" xml:space="preserve">
-    <value>groupBox2</value>
+  <data name="paymentButton.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
   </data>
   <data name="comboBoxLanguage.Text" xml:space="preserve">
     <value>Language</value>
@@ -308,6 +305,12 @@
   </data>
   <data name="&gt;&gt;comboBoxLanguage.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="exitButton.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
@@ -339,8 +342,11 @@
   <data name="&gt;&gt;emailLabel.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="comboBoxLanguage.Items" xml:space="preserve">
-    <value>English</value>
+  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="contactLabel.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
   </data>
   <data name="comboBoxLanguage.Size" type="System.Drawing.Size, System.Drawing">
     <value>96, 24</value>
@@ -351,8 +357,11 @@
   <data name="&gt;&gt;emailLabel.Parent" xml:space="preserve">
     <value>groupBox2</value>
   </data>
-  <data name="comboBoxLanguage.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;inputsuggestionRichTextBox.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;contactLabel.Name" xml:space="preserve">
+    <value>contactLabel</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -360,14 +369,11 @@
   <data name="reserveButton.Text" xml:space="preserve">
     <value>Reserve book</value>
   </data>
-  <data name="&gt;&gt;exitButton.Parent" xml:space="preserve">
-    <value>groupBox1</value>
+  <data name="exitButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="emailLabel.Text" xml:space="preserve">
     <value>Enquiries: abc@dodo.au</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>MainDashbboard</value>
   </data>
   <data name="reserveButton.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -387,47 +393,41 @@
   <data name="groupBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
-    <value>groupBox2</value>
-  </data>
   <data name="groupBox2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
-  </data>
-  <data name="&gt;&gt;emailLabel.Name" xml:space="preserve">
-    <value>emailLabel</value>
   </data>
   <data name="comboBoxLanguage.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft Sans Serif, 7.8pt, style=Bold</value>
   </data>
-  <data name="&gt;&gt;comboBoxLanguage.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="emailLabel.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Verdana, 11.25pt, style=Bold</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="contactLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
-  </data>
   <data name="emailLabel.Size" type="System.Drawing.Size, System.Drawing">
     <value>267, 23</value>
   </data>
-  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MainDashbboard</value>
   </data>
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>20, 49</value>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
   </data>
-  <data name="paymentButton.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+  <data name="exitButton.Text" xml:space="preserve">
+    <value>Exit</value>
   </data>
   <data name="&gt;&gt;paymentButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+  <data name="inputsuggestionRichTextBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>323, 82</value>
+  </data>
+  <data name="exitButton.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
   </data>
   <data name="paymentButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
@@ -435,8 +435,8 @@
   <data name="suggestionLlabel.Text" xml:space="preserve">
     <value>Any suggestions:</value>
   </data>
-  <data name="&gt;&gt;contactLabel.Name" xml:space="preserve">
-    <value>contactLabel</value>
+  <data name="&gt;&gt;emailLabel.Name" xml:space="preserve">
+    <value>emailLabel</value>
   </data>
   <data name="memberButton.Text" xml:space="preserve">
     <value>Add member</value>
@@ -448,13 +448,13 @@
     <value>Book Details</value>
   </data>
   <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Gill Sans Ultra Bold, 8.25pt</value>
+    <value>Microsoft Sans Serif, 8.25pt</value>
   </data>
-  <data name="&gt;&gt;contactLabel.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
   </data>
-  <data name="exitButton.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+  <data name="&gt;&gt;exitButton.Parent" xml:space="preserve">
+    <value>groupBox1</value>
   </data>
   <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -468,8 +468,8 @@
   <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;reserveButton.ZOrder" xml:space="preserve">
-    <value>3</value>
+  <data name="&gt;&gt;reserveButton.Name" xml:space="preserve">
+    <value>reserveButton</value>
   </data>
   <data name="emailLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 0, 4, 0</value>
@@ -3569,8 +3569,11 @@
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
   </data>
-  <data name="memberButton.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+  <data name="emailLabel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>20, 49</value>
+  </data>
+  <data name="&gt;&gt;comboBoxLanguage.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;contactLabel.ZOrder" xml:space="preserve">
     <value>2</value>

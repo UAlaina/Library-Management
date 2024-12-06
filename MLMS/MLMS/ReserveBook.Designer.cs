@@ -62,10 +62,11 @@
             // 
             // reserveBookButton
             // 
-            this.reserveBookButton.ForeColor = System.Drawing.Color.Salmon;
+            this.reserveBookButton.BackColor = System.Drawing.Color.Salmon;
+            this.reserveBookButton.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.reserveBookButton, "reserveBookButton");
             this.reserveBookButton.Name = "reserveBookButton";
-            this.reserveBookButton.UseVisualStyleBackColor = true;
+            this.reserveBookButton.UseVisualStyleBackColor = false;
             this.reserveBookButton.Click += new System.EventHandler(this.reserveBookButton_Click);
             // 
             // statusComboBox
@@ -84,18 +85,20 @@
             // 
             // backButton
             // 
-            this.backButton.ForeColor = System.Drawing.Color.Salmon;
+            this.backButton.BackColor = System.Drawing.Color.Salmon;
+            this.backButton.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.backButton, "backButton");
             this.backButton.Name = "backButton";
-            this.backButton.UseVisualStyleBackColor = true;
+            this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // searchButton
             // 
-            this.searchButton.ForeColor = System.Drawing.Color.Salmon;
+            this.searchButton.BackColor = System.Drawing.Color.Salmon;
+            this.searchButton.ForeColor = System.Drawing.Color.White;
             resources.ApplyResources(this.searchButton, "searchButton");
             this.searchButton.Name = "searchButton";
-            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.UseVisualStyleBackColor = false;
             this.searchButton.Click += new System.EventHandler(this.searchButton_Click);
             // 
             // label2

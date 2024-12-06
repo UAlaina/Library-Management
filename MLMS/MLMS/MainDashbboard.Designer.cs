@@ -60,7 +60,8 @@
             // comboBoxLanguage
             // 
             resources.ApplyResources(this.comboBoxLanguage, "comboBoxLanguage");
-            this.comboBoxLanguage.ForeColor = System.Drawing.Color.Salmon;
+            this.comboBoxLanguage.BackColor = System.Drawing.Color.Salmon;
+            this.comboBoxLanguage.ForeColor = System.Drawing.Color.White;
             this.comboBoxLanguage.FormattingEnabled = true;
             this.comboBoxLanguage.Items.AddRange(new object[] {
             resources.GetString("comboBoxLanguage.Items"),
@@ -71,8 +72,8 @@
             // exitButton
             // 
             resources.ApplyResources(this.exitButton, "exitButton");
-            this.exitButton.BackColor = System.Drawing.Color.White;
-            this.exitButton.ForeColor = System.Drawing.Color.Salmon;
+            this.exitButton.BackColor = System.Drawing.Color.Salmon;
+            this.exitButton.ForeColor = System.Drawing.Color.White;
             this.exitButton.Name = "exitButton";
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
@@ -80,8 +81,8 @@
             // paymentButton
             // 
             resources.ApplyResources(this.paymentButton, "paymentButton");
-            this.paymentButton.BackColor = System.Drawing.Color.White;
-            this.paymentButton.ForeColor = System.Drawing.Color.Salmon;
+            this.paymentButton.BackColor = System.Drawing.Color.Salmon;
+            this.paymentButton.ForeColor = System.Drawing.Color.White;
             this.paymentButton.Name = "paymentButton";
             this.paymentButton.UseVisualStyleBackColor = false;
             this.paymentButton.Click += new System.EventHandler(this.paymentButton_Click);
@@ -89,8 +90,8 @@
             // reserveButton
             // 
             resources.ApplyResources(this.reserveButton, "reserveButton");
-            this.reserveButton.BackColor = System.Drawing.Color.White;
-            this.reserveButton.ForeColor = System.Drawing.Color.Salmon;
+            this.reserveButton.BackColor = System.Drawing.Color.Salmon;
+            this.reserveButton.ForeColor = System.Drawing.Color.White;
             this.reserveButton.Name = "reserveButton";
             this.reserveButton.UseVisualStyleBackColor = false;
             this.reserveButton.Click += new System.EventHandler(this.reserveButton_Click);
@@ -98,8 +99,8 @@
             // memberButton
             // 
             resources.ApplyResources(this.memberButton, "memberButton");
-            this.memberButton.BackColor = System.Drawing.Color.White;
-            this.memberButton.ForeColor = System.Drawing.Color.Salmon;
+            this.memberButton.BackColor = System.Drawing.Color.Salmon;
+            this.memberButton.ForeColor = System.Drawing.Color.White;
             this.memberButton.Name = "memberButton";
             this.memberButton.UseVisualStyleBackColor = false;
             this.memberButton.Click += new System.EventHandler(this.memberButton_Click);

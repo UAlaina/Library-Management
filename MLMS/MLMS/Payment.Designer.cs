@@ -52,7 +52,6 @@
             // 
             // groupBox1
             // 
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.BackColor = System.Drawing.Color.White;
             this.groupBox1.Controls.Add(this.expiryDatePicker);
             this.groupBox1.Controls.Add(this.cardNameLabel);
@@ -72,15 +71,16 @@
             this.groupBox1.Controls.Add(this.creditCardRadioButton);
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.ForeColor = System.Drawing.Color.Black;
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // expiryDatePicker
             // 
-            resources.ApplyResources(this.expiryDatePicker, "expiryDatePicker");
             this.expiryDatePicker.CalendarForeColor = System.Drawing.Color.Peru;
             this.expiryDatePicker.CalendarTitleForeColor = System.Drawing.Color.Peru;
             this.expiryDatePicker.CalendarTrailingForeColor = System.Drawing.Color.Peru;
+            resources.ApplyResources(this.expiryDatePicker, "expiryDatePicker");
             this.expiryDatePicker.Name = "expiryDatePicker";
             // 
             // cardNameLabel
@@ -95,18 +95,18 @@
             // 
             // backButton
             // 
+            this.backButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.backButton, "backButton");
-            this.backButton.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.backButton.ForeColor = System.Drawing.Color.Salmon;
+            this.backButton.ForeColor = System.Drawing.Color.White;
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // payButton
             // 
+            this.payButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.payButton, "payButton");
-            this.payButton.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.payButton.ForeColor = System.Drawing.Color.Salmon;
+            this.payButton.ForeColor = System.Drawing.Color.White;
             this.payButton.Name = "payButton";
             this.payButton.UseVisualStyleBackColor = false;
             this.payButton.Click += new System.EventHandler(this.payButton_Click);

@@ -39,7 +39,7 @@
             // 
             this.addUserButton.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.addUserButton, "addUserButton");
-            this.addUserButton.ForeColor = System.Drawing.Color.Black;
+            this.addUserButton.ForeColor = System.Drawing.Color.Salmon;
             this.addUserButton.Name = "addUserButton";
             this.addUserButton.UseVisualStyleBackColor = false;
             this.addUserButton.Click += new System.EventHandler(this.addUserButton_Click);
@@ -47,7 +47,7 @@
             // exitButton
             // 
             resources.ApplyResources(this.exitButton, "exitButton");
-            this.exitButton.ForeColor = System.Drawing.Color.Black;
+            this.exitButton.ForeColor = System.Drawing.Color.Salmon;
             this.exitButton.Name = "exitButton";
             this.exitButton.UseVisualStyleBackColor = true;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
@@ -65,7 +65,7 @@
             // adminButton
             // 
             resources.ApplyResources(this.adminButton, "adminButton");
-            this.adminButton.ForeColor = System.Drawing.Color.Black;
+            this.adminButton.ForeColor = System.Drawing.Color.Salmon;
             this.adminButton.Name = "adminButton";
             this.adminButton.UseVisualStyleBackColor = true;
             this.adminButton.Click += new System.EventHandler(this.adminButton_Click);
