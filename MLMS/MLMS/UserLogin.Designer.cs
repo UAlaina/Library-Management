@@ -54,6 +54,7 @@
             // 
             // groupBox1
             // 
+            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Controls.Add(this.backButton);
             this.groupBox1.Controls.Add(this.newUserButton);
             this.groupBox1.Controls.Add(this.passwordTextBox);
@@ -65,24 +66,23 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.passwordLabel);
             this.groupBox1.Controls.Add(this.emailLabel);
-            resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             // 
             // backButton
             // 
+            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.BackColor = System.Drawing.Color.Salmon;
             this.backButton.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.backButton, "backButton");
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = false;
             this.backButton.Click += new System.EventHandler(this.backButton_Click);
             // 
             // newUserButton
             // 
+            resources.ApplyResources(this.newUserButton, "newUserButton");
             this.newUserButton.BackColor = System.Drawing.Color.Salmon;
             this.newUserButton.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.newUserButton, "newUserButton");
             this.newUserButton.Name = "newUserButton";
             this.newUserButton.UseVisualStyleBackColor = false;
             this.newUserButton.Click += new System.EventHandler(this.newUserButton_Click);
@@ -99,27 +99,27 @@
             // 
             // exitButton
             // 
+            resources.ApplyResources(this.exitButton, "exitButton");
             this.exitButton.BackColor = System.Drawing.Color.Salmon;
             this.exitButton.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.exitButton, "exitButton");
             this.exitButton.Name = "exitButton";
             this.exitButton.UseVisualStyleBackColor = false;
             this.exitButton.Click += new System.EventHandler(this.exitButton_Click);
             // 
             // clearButton
             // 
+            resources.ApplyResources(this.clearButton, "clearButton");
             this.clearButton.BackColor = System.Drawing.Color.Salmon;
             this.clearButton.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.clearButton, "clearButton");
             this.clearButton.Name = "clearButton";
             this.clearButton.UseVisualStyleBackColor = false;
             this.clearButton.Click += new System.EventHandler(this.clearButton_Click);
             // 
             // loginButton
             // 
+            resources.ApplyResources(this.loginButton, "loginButton");
             this.loginButton.BackColor = System.Drawing.Color.Salmon;
             this.loginButton.ForeColor = System.Drawing.Color.White;
-            resources.ApplyResources(this.loginButton, "loginButton");
             this.loginButton.Name = "loginButton";
             this.loginButton.UseVisualStyleBackColor = false;
             this.loginButton.Click += new System.EventHandler(this.loginButton_Click);

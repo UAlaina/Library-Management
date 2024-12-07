@@ -119,14 +119,10 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="expiryDatePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 286</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="expiryDatePicker.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
+    <value>192, 228</value>
   </data>
   <data name="expiryDatePicker.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="expiryDatePicker.TabIndex" type="System.Int32, mscorlib">
@@ -148,13 +144,14 @@
     <value>True</value>
   </data>
   <data name="cardNameLabel.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 194</value>
+    <value>35, 156</value>
   </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="cardNameLabel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="cardNameLabel.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 20</value>
+    <value>76, 16</value>
   </data>
   <data name="cardNameLabel.TabIndex" type="System.Int32, mscorlib">
     <value>18</value>
@@ -175,13 +172,13 @@
     <value>1</value>
   </data>
   <data name="cardNameTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 186</value>
+    <value>192, 150</value>
   </data>
   <data name="cardNameTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="cardNameTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <data name="cardNameTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -199,16 +196,16 @@
     <value>2</value>
   </data>
   <data name="backButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
   </data>
   <data name="backButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>402, 418</value>
+    <value>357, 335</value>
   </data>
   <data name="backButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="backButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>112, 51</value>
+    <value>101, 41</value>
   </data>
   <data name="backButton.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -229,16 +226,16 @@
     <value>3</value>
   </data>
   <data name="payButton.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Microsoft Sans Serif, 11.25pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 10.8pt, style=Bold</value>
   </data>
   <data name="payButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>188, 418</value>
+    <value>167, 335</value>
   </data>
   <data name="payButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="payButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>138, 51</value>
+    <value>123, 41</value>
   </data>
   <data name="payButton.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -262,13 +259,13 @@
     <value>True</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 384</value>
+    <value>31, 307</value>
   </data>
   <data name="label7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 20</value>
+    <value>52, 16</value>
   </data>
   <data name="label7.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -289,13 +286,13 @@
     <value>5</value>
   </data>
   <data name="amountTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 380</value>
+    <value>192, 304</value>
   </data>
   <data name="amountTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="amountTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <data name="amountTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -313,13 +310,13 @@
     <value>6</value>
   </data>
   <data name="securityCodeTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 335</value>
+    <value>192, 268</value>
   </data>
   <data name="securityCodeTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="securityCodeTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <data name="securityCodeTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -340,13 +337,13 @@
     <value>True</value>
   </data>
   <data name="label6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 339</value>
+    <value>31, 271</value>
   </data>
   <data name="label6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 20</value>
+    <value>91, 16</value>
   </data>
   <data name="label6.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -370,13 +367,13 @@
     <value>True</value>
   </data>
   <data name="label5.Location" type="System.Drawing.Point, System.Drawing">
-    <value>35, 292</value>
+    <value>31, 234</value>
   </data>
   <data name="label5.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
-    <value>89, 20</value>
+    <value>75, 16</value>
   </data>
   <data name="label5.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -400,13 +397,13 @@
     <value>True</value>
   </data>
   <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 248</value>
+    <value>35, 198</value>
   </data>
   <data name="label4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 20</value>
+    <value>87, 16</value>
   </data>
   <data name="label4.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -427,13 +424,13 @@
     <value>10</value>
   </data>
   <data name="cardNoTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 240</value>
+    <value>192, 192</value>
   </data>
   <data name="cardNoTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="cardNoTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <data name="cardNoTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -451,13 +448,13 @@
     <value>11</value>
   </data>
   <data name="emailTextBox.Location" type="System.Drawing.Point, System.Drawing">
-    <value>216, 135</value>
+    <value>192, 108</value>
   </data>
   <data name="emailTextBox.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="emailTextBox.Size" type="System.Drawing.Size, System.Drawing">
-    <value>298, 26</value>
+    <value>265, 22</value>
   </data>
   <data name="emailTextBox.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -478,13 +475,13 @@
     <value>True</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 142</value>
+    <value>35, 113</value>
   </data>
   <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>48, 20</value>
+    <value>41, 16</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
@@ -508,13 +505,13 @@
     <value>True</value>
   </data>
   <data name="radioButton2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>288, 79</value>
+    <value>256, 63</value>
   </data>
   <data name="radioButton2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="radioButton2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>85, 24</value>
+    <value>74, 20</value>
   </data>
   <data name="radioButton2.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -538,13 +535,13 @@
     <value>True</value>
   </data>
   <data name="creditCardRadioButton.Location" type="System.Drawing.Point, System.Drawing">
-    <value>130, 79</value>
+    <value>117, 63</value>
   </data>
   <data name="creditCardRadioButton.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="creditCardRadioButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>111, 24</value>
+    <value>93, 20</value>
   </data>
   <data name="creditCardRadioButton.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -568,13 +565,13 @@
     <value>True</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>39, 54</value>
+    <value>35, 42</value>
   </data>
   <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 0, 4, 0</value>
+    <value>5, 0, 5, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>129, 20</value>
+    <value>108, 16</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -595,16 +592,16 @@
     <value>16</value>
   </data>
   <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 16</value>
+    <value>13, 13</value>
   </data>
   <data name="groupBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="groupBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 5, 4, 5</value>
+    <value>5, 4, 5, 4</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>593, 514</value>
+    <value>527, 412</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -624,14 +621,20 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>fr</value>
+  </metadata>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>9, 20</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>640, 546</value>
+    <value>569, 438</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 7.8pt</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -3721,9 +3724,6 @@
         /VlsffFFzI7sgSKKCHd0InTOG1HYuhWxs9ZgZucO9F1wgbO15+Dg4ODg4ODg4ODg4ODg4ODg4ODg4ODg
         4ODg4ODg4OBwGvH/AwtDJvQ5xwzkAAAAAElFTkSuQmCC
 </value>
-  </data>
-  <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Payment</value>

@@ -126,7 +126,7 @@
     <value>6, 5, 6, 5</value>
   </data>
   <data name="reserveBookButton.Size" type="System.Drawing.Size, System.Drawing">
-    <value>151, 40</value>
+    <value>198, 40</value>
   </data>
   <data name="reserveBookButton.Text" xml:space="preserve">
     <value>Réserver un livre</value>
