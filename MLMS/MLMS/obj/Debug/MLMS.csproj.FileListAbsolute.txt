@@ -709,3 +709,15 @@ C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.Admi
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminMainDashBoard.fr.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.ViewReserve.resources
 C:\Users\santh\Documents\GitHub\Library-Management\MLMS\MLMS\obj\Debug\MLMS.ViewReserve.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminLogin.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminMainDashBoard.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.ViewReserve.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminLogin.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AdminMainDashBoard.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.ViewReserve.fr.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\en-CA\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\App_Data\fr-CA\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.en-CA.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\MLMS.AddBook.fr-CA.resources
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\en-CA\MLMS.resources.dll
+C:\School_Projects\Git_Repositories\Library-Management\MLMS\MLMS\obj\Debug\fr-CA\MLMS.resources.dll

@@ -245,5 +245,10 @@ namespace MLMS
         {
 
         }
+
+        private void bookLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

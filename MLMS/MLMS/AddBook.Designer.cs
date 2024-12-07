@@ -51,8 +51,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             resources.ApplyResources(this.groupBox1, "groupBox1");
+            this.groupBox1.BackColor = System.Drawing.SystemColors.Control;
             this.groupBox1.Controls.Add(this.availabailityLabel);
             this.groupBox1.Controls.Add(this.availabilityComboBox);
             this.groupBox1.Controls.Add(this.publishDateTimePicker);
@@ -79,11 +79,11 @@
             // 
             // availabilityComboBox
             // 
+            resources.ApplyResources(this.availabilityComboBox, "availabilityComboBox");
             this.availabilityComboBox.FormattingEnabled = true;
             this.availabilityComboBox.Items.AddRange(new object[] {
             resources.GetString("availabilityComboBox.Items"),
             resources.GetString("availabilityComboBox.Items1")});
-            resources.ApplyResources(this.availabilityComboBox, "availabilityComboBox");
             this.availabilityComboBox.Name = "availabilityComboBox";
             // 
             // publishDateTimePicker
@@ -119,8 +119,8 @@
             // 
             // backButton
             // 
-            this.backButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.backButton, "backButton");
+            this.backButton.BackColor = System.Drawing.Color.Salmon;
             this.backButton.ForeColor = System.Drawing.Color.White;
             this.backButton.Name = "backButton";
             this.backButton.UseVisualStyleBackColor = false;
@@ -128,8 +128,8 @@
             // 
             // addButton
             // 
-            this.addButton.BackColor = System.Drawing.Color.Salmon;
             resources.ApplyResources(this.addButton, "addButton");
+            this.addButton.BackColor = System.Drawing.Color.Salmon;
             this.addButton.ForeColor = System.Drawing.Color.White;
             this.addButton.Name = "addButton";
             this.addButton.UseVisualStyleBackColor = false;
@@ -164,6 +164,7 @@
             // 
             resources.ApplyResources(this.bookLabel, "bookLabel");
             this.bookLabel.Name = "bookLabel";
+            this.bookLabel.Click += new System.EventHandler(this.bookLabel_Click);
             // 
             // AddBook
             // 

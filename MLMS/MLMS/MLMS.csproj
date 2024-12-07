@@ -260,6 +260,12 @@
     <EmbeddedResource Include="AddBook.aa.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AddBook.en-CA.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddBook.fr-CA.resx">
+      <DependentUpon>AddBook.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddBook.fr.resx">
       <DependentUpon>AddBook.cs</DependentUpon>
     </EmbeddedResource>

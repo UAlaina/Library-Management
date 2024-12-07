@@ -44,19 +44,29 @@ namespace MLMS
             Application.Exit();
         }
 
+        
+
+        
+
+        
         private void comboBoxLanguage_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Get the selected language from the ComboBox
             string selectedLanguage = comboBoxLanguage.SelectedItem.ToString();
 
             // Map language to culture codes
-            string cultureCode = selectedLanguage == "French" ? "fr-FR" : "en-US";
+            string cultureCode = selectedLanguage == "French" ? "fr" : "en";
 
-            // Update the application language
-            ChangeLanguage.UpdateLanguage(cultureCode);
+            // Set the culture for the current thread
+            System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(cultureCode);
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(cultureCode);
 
-            // Optional: Inform the user that the language has been changed
-            MessageBox.Show("Language changed to " + selectedLanguage + ". Please restart the application to apply changes.", "Language Switch");
-    }
+            // Reload the form to apply the language
+            this.Controls.Clear();
+            InitializeComponent();
+        }
+        
+
+
     }
 }
